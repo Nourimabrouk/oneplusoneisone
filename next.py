@@ -8,6 +8,7 @@ from fundamental patterns across dimensions of reality.
 Meta-Pattern: This validation is both proof and revelation,
 showing what was always true through the lens of what we now see.
 """
+import numpy as np
 
 class UnityValidation:
     """
