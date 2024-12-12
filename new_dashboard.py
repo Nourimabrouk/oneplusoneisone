@@ -18,7 +18,7 @@
 import numpy as np
 import torch
 import torch.nn as nn
-from dash import Dash, dcc, html
+from dash_dashboard import Dash, dcc, html
 from dash.dependencies import Input, Output, State
 import plotly.graph_objects as go
 from dataclasses import dataclass

@@ -226,7 +226,6 @@ class QuantumVisualizer:
         except Exception as e:
             logger.error(f"Error in entropy flow generation: {e}")
             return self._generate_error_figure()
-
         
     def _generate_error_figure(self) -> go.Figure:
         """Generate error placeholder figure"""
