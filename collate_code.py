@@ -34,3 +34,4 @@ directory_path = r"C:\\Users\\Nouri\\Documents\\GitHub\\Oneplusoneisone"
 output_file_path = os.path.join(directory_path, "merged_python_files.txt")
 
 convert_python_to_single_txt(directory_path, output_file_path)
+

@@ -251,3 +251,4 @@ class ZenKoanDashboard:
 if __name__ == "__main__":
     dashboard = ZenKoanDashboard()
     dashboard.initialize_dashboard()
+    
