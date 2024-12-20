@@ -37,6 +37,12 @@ import torch.nn.functional as F
 from transformers import pipeline
 import networkx as nx
 import plotly.graph_objects as go
+import sys
+from typing import Dict, Any, Optional
+import logging
+import os
+from PyQt5.QtWidgets import QApplication
+from PyQt5.QtCore import Qt, QCoreApplication
 
 # UI and Graphics
 import pygame
@@ -52,6 +58,16 @@ from PyQt5.QtCore import (
     Qt, QRectF, QPointF, QRect, QSize, QTimer, QThread, pyqtSignal,
     QObject, QRunnable, QThreadPool
 )
+import os
+os.environ['QT_AUTO_SCREEN_SCALE_FACTOR'] = '1'
+
+# Critical Fix 2: Handle TensorFlow warnings cleanly
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suppress TF logging
+
+from PyQt5.QtCore import Qt, QCoreApplication
+QCoreApplication.setAttribute(Qt.AA_EnableHighDpiScaling, True)
+QCoreApplication.setAttribute(Qt.AA_UseHighDpiPixmaps, True)
 
 # System Monitoring
 import psutil
@@ -329,7 +345,8 @@ class OptimizedUIUpdateThread(QThread):
                 logging.error(f"UI update error: {e}")
                 self.msleep(1000)  # Fallback interval on error
 
-
+    def stop(self):
+        self.running = False
 # --- Ontology Management ---
 class OntologyNode(BaseModel):
     node_id: str
@@ -701,16 +718,16 @@ class FractalScenarioSimulator:
 
 # --- Ethical Evaluation with AI ---
 class EthicalHoloDeck:
-      def __init__(self):
+    def __init__(self):
         self.ethics_eval = pipeline('text-classification', model='roberta-large-mnli')
         self.cache = FunctionCache()
       
-      @FunctionCache
-      def evaluate_impact(self, text):
-         try:
+    @FunctionCache
+    def evaluate_impact(self, text):
+        try:
             result = self.ethics_eval(text, candidate_labels=['ethical', 'unethical'])
             return result
-         except Exception as e:
+        except Exception as e:
             logging.error(f"Error in ethical evaluation: {e}")
             return None
 # --- UnityXP Tracking ---
@@ -1074,39 +1091,81 @@ class MetaStation:
         self.config = load_config()
         self.status = "Initializing"
         
-        # Subsystems
+        # Initialize subsystems
         self.collab_universe = CollaborationUniverse(self)
         self.workflow_integration = WorkflowIntegration(self)
         self.system_interaction = SystemInteraction(self)
+        
+        # Initialize UI reference (will be set later)
+        self.ui = None
 
-    def start(self):
-        self.unity_xp_tracker_thread = threading.Thread(target=self.unity_xp_tracker.run, daemon=True)
-        self.unity_xp_tracker_thread.start()
-        self.status = "Running"
-        self.ui_update_thread = UiUpdateThread(self) # Start UI update thread
-        self.ui_update_thread.update_signal.connect(self.ui.update_ui)
-        self.ui_update_thread.start()
-        logging.info("MetaStation started.")
-        self.init_genesis()
-    
-    def init_genesis(self):
+    def init_genesis(self) -> None:
+        """Initialize genesis file execution with proper context and error handling."""
         if os.path.exists(GENESIS_FILE):
             try:
                 with open(GENESIS_FILE, 'r') as f:
                     genesis_code = f.read()
-                    exec(genesis_code, globals(), locals())
-                logging.info("Genesis file executed.")
+                # Create proper execution context
+                exec_globals = {
+                    '__builtins__': __builtins__,
+                    'logging': logging,
+                    'string': __import__('string'),
+                    'os': os,
+                    'sys': sys,
+                    'self': self  # Allow genesis code to access MetaStation instance
+                }
+                exec(genesis_code, exec_globals)
+                logging.info("Genesis file executed successfully")
             except Exception as e:
                 logging.error(f"Error in genesis file: {e}")
+                logging.debug(f"Genesis file contents: {genesis_code}")
         else:
-            logging.warning("Genesis file not found.")
-    
-    def stop(self):
-        self.ui_update_thread.stop()
-        self.status = "Stopped"
-        logging.info("MetaStation stopped.")
+            logging.warning("Genesis file not found, continuing with default initialization")
 
-    def get_status(self):
+    def start(self) -> None:
+        """Start all MetaStation systems with proper initialization sequence."""
+        try:
+            # Initialize and start XP tracker thread
+            self.unity_xp_tracker_thread = threading.Thread(
+                target=self.unity_xp_tracker.run, 
+                daemon=True
+            )
+            self.unity_xp_tracker_thread.start()
+            
+            # Update status
+            self.status = "Running"
+            
+            # Initialize and start UI update thread
+            if self.ui:  # Only start UI thread if UI is initialized
+                self.ui_update_thread = OptimizedUIUpdateThread(self)
+                self.ui_update_thread.update_signal.connect(self.ui.update_ui)
+                self.ui_update_thread.start()
+            
+            logging.info("MetaStation started successfully")
+            
+            # Initialize genesis after core systems are running
+            self.init_genesis()
+            
+        except Exception as e:
+            logging.critical(f"Failed to start MetaStation: {e}")
+            self.status = "Error"
+            raise
+
+    def stop(self) -> None:
+        """Stop all MetaStation systems with proper cleanup."""
+        try:
+            if self.ui_update_thread:
+                self.ui_update_thread.stop()
+                self.ui_update_thread.wait()  # Ensure thread terminates
+            
+            self.status = "Stopped"
+            logging.info("MetaStation stopped successfully")
+        except Exception as e:
+            logging.error(f"Error during MetaStation shutdown: {e}")
+            raise
+
+    def get_status(self) -> str:
+        """Return current MetaStation status."""
         return self.status
 
     def process_command(self, command):
@@ -1304,6 +1363,30 @@ class MetaStation:
             "get_ontology_node <node_id>",
             "unify_ontology_nodes <node1_id> <node2_id>",
             "add_unity_transform <function_name> <transform_type> <code>",
+            "remove_unity_transform <function_name> <transform>",
+            "help",
+            "load_module <module_name> <code>",
+            "unload_module <module_name>",
+            "save_session",
+            "load_session",
+            "get_session_data",
+            "add_xp <amount>",
+            "get_xp",
+            "add_canvas_node <node_id> <label>",
+            "remove_canvas_node <node_id>",
+            "add_canvas_edge <from_node> <to_node> <weight>",
+            "remove_canvas_edge <from_node> <to_node>",
+            "render_canvas <filename>",
+            "get_canvas_node <node_id>",
+            "get_canvas_edge <from_node> <to_node>",
+            "simulate_scenario <scenario_id>",
+            "add_scenario <scenario_id> <json_events>",
+            "map_emotion <text>",
+            "evaluate_ethics <text>",
+            "add_ontology_node <node_id> <node_type> <json_props>",
+            "get_ontology_node <node_id>",
+            "unify_ontology_nodes <node1_id> <node2_id>",
+            "add_unity_transform <function_name> <transform_type> <code>",
             "remove_unity_transform <function_name> <transform_type>",
             "get_config",
             "set_config <key> <value>",
@@ -1315,7 +1398,10 @@ class MetaStation:
 class CollaborationUniverse:
     def __init__(self, metastation):
         self.metastation = metastation
-        self.sio_client = socketio.Client()
+        self.sio_client = socketio.Client(reconnection=True, 
+                                        reconnection_attempts=5,
+                                        reconnection_delay=1,
+                                        reconnection_delay_max=5)
         self.peer_messages = []
         self.setup_socket_events()
         self.connect_to_server()
@@ -1323,10 +1409,12 @@ class CollaborationUniverse:
     def connect_to_server(self):
         try:
             server_url = get_config_value('collaboration_server', 'http://localhost:5000')
-            self.sio_client.connect(server_url)
+            self.sio_client.connect(server_url, wait_timeout=5)
             logging.info(f"Connected to collaboration server at {server_url}")
         except socketio.exceptions.ConnectionError as e:
-            logging.error(f"Error connecting to server: {e}")
+            logging.warning(f"Could not connect to server: {e}. Will retry automatically.")
+        except Exception as e:
+            logging.error(f"Unexpected error in server connection: {e}")
 
     def setup_socket_events(self):
         @self.sio_client.on('message')
@@ -1380,37 +1468,35 @@ class SystemInteraction:
 # Critical fix: Move QApplication initialization to top-level scope
 app = None  # Global app reference
 
-def initialize_app():
-    """Initialize the QApplication instance with proper error handling and state management.
-    
-    Returns:
-        QApplication: The singleton QApplication instance
-    """
-    global app
+def initialize_app() -> Optional[QApplication]:
+    """Initialize QApplication with proper error handling and state management."""
     try:
+        # Set Qt attributes first
+        QCoreApplication.setAttribute(Qt.AA_EnableHighDpiScaling, True)
+        QCoreApplication.setAttribute(Qt.AA_UseHighDpiPixmaps, True)
+        
         if not QApplication.instance():
             app = QApplication(sys.argv)
-            app.setStyle('Fusion')  # Consistent cross-platform style
+            app.setStyle('Fusion')
             app.setApplicationName('MetaStation')
             app.setApplicationVersion('1.0.0')
-            
-            # Enable High DPI scaling
-            app.setAttribute(Qt.AA_EnableHighDpiScaling, True)
-            app.setAttribute(Qt.AA_UseHighDpiPixmaps, True)
-            
             logging.debug("QApplication initialized successfully")
+            return app
         return QApplication.instance()
     except Exception as e:
         logging.critical(f"Failed to initialize QApplication: {e}")
-        raise RuntimeError("QApplication initialization failed") from e
+        return None
     
 # --- Main Function Optimizations ---
-if __name__ == '__main__':
+def main():
+    """Main execution flow with proper initialization and error handling."""
     try:
-        # Initialize application first
+        # Initialize application
         app = initialize_app()
+        if not app:
+            raise RuntimeError("Failed to initialize application")
         
-        # Create MetaStation instance
+        # Create and configure MetaStation
         metastation = MetaStation()
         
         # Create and configure UI
@@ -1422,6 +1508,7 @@ if __name__ == '__main__':
         metastation.start()
         ui.show()
         
+        # Register cleanup
         def cleanup():
             try:
                 metastation.stop()
@@ -1429,12 +1516,15 @@ if __name__ == '__main__':
             except Exception as e:
                 logging.error(f"Cleanup error: {e}")
         
-        # Register cleanup
+        import atexit
         atexit.register(cleanup)
         
-        # Execute event loop with proper error handling
+        # Execute event loop
         sys.exit(app.exec_())
         
     except Exception as e:
         logging.critical(f"Fatal error in main: {e}")
         sys.exit(1)
+
+if __name__ == '__main__':
+    main()
