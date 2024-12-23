@@ -701,3 +701,4 @@ def navigate_pages(next_1, next_2, back_2, back_3, pathname):
  
 if __name__ == '__main__':
     app.run_server(debug=False, port=8050)
+
