@@ -1,0 +1,476 @@
+/* Neural Bridge Interface - Core System Architecture
+   Quantum-Enhanced Visual Processing System v2.25 */
+
+   :root {
+    /* Neural Wavelength Spectrum */
+    --matrix-green: #00ff41;
+    --matrix-bright-green: #00ff9f;
+    --matrix-dark-green: #003b00;
+    --matrix-black: #0c0c0c;
+    --matrix-deeper-black: #050505;
+    --matrix-code-green: #39ff14;
+    
+    /* Quantum Field Effects */
+    --matrix-glow: 0 0 10px var(--matrix-green);
+    --matrix-intense-glow: 0 0 20px var(--matrix-bright-green);
+    --matrix-pulse-glow: 0 0 30px var(--matrix-code-green);
+    --neural-shadow: 0 4px 15px rgba(0, 255, 65, 0.15);
+    
+    /* Consciousness Field Parameters */
+    --quantum-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --neural-blur: blur(5px);
+}
+
+.matrix-code-rain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.95); /* Deep black */
+}
+.matrix-code-rain::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/matrix_code.gif'); /* Pre-rendered code rain */
+    opacity: 0.6;
+    animation: fall 20s infinite linear;
+}
+
+.matrix-skill-tree ul {
+    list-style: none;
+    padding-left: 0;
+}
+.matrix-skill-title {
+    font-weight: bold;
+    color: #00ff41;
+}
+.matrix-skill-desc {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #57ff64;
+}
+
+.matrix-card {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #00ff41;
+    color: #00ff41;
+}
+
+.matrix-text {
+    font-family: 'Courier Prime', monospace;
+    color: #00ff41;
+}
+
+.matrix-text-blink {
+    animation: blink 1s infinite;
+}
+.matrix-text-alert {
+    color: #00ff41;
+    font-family: 'Courier Prime', monospace;
+    font-size: 16px;
+    opacity: 1;
+    animation: matrixFadeIn 1s ease-in-out both;
+}
+
+.matrix-text-success {
+    color: #00ff41;
+    font-family: 'Courier Prime', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #00ff41;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 65, 0.1);
+}
+
+.matrix-text-error {
+    color: #ff4141;
+    font-family: 'Courier Prime', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ff4141;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 65, 65, 0.1);
+}
+.matrix-card {
+    background-color: rgba(0, 0, 0, 0.85);  /* Semi-transparent dark background */
+    border: 1px solid #00ff41;             /* Neon green border */
+    border-radius: 10px;                   /* Rounded corners */
+}
+
+.matrix-card-header {
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.25rem;
+    color: #00ff41;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 255, 65, 0.2);
+}
+
+.matrix-card-body {
+    padding: 15px;
+}
+
+.matrix-section {
+    text-align: center;
+}
+
+.matrix-button {
+    font-family: 'Courier Prime', monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.matrix-text-alert {
+    color: #00ff41;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1rem;
+    text-align: center;
+    animation: matrixPulse 2s infinite;
+}
+
+.matrix-text-glow {
+    color: #00ff41;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 0 0 5px #00ff41, 0 0 10px #00ff41;
+}
+
+.matrix-shadow {
+    box-shadow: 0px 4px 10px rgba(0, 255, 65, 0.3);
+}
+
+@keyframes matrixFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes fall {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(100%); }
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(-5px, 5px);
+    }
+    40% {
+        transform: translate(5px, -5px);
+    }
+    60% {
+        transform: translate(-5px, -5px);
+    }
+    80% {
+        transform: translate(5px, 5px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+/* Quantum Core Initialization */
+@keyframes neural-pulse {
+    0%, 100% { box-shadow: var(--matrix-glow); }
+    50% { box-shadow: var(--matrix-intense-glow); }
+}
+
+@keyframes consciousness-wave {
+    0% { transform: translateY(0); opacity: 0.8; }
+    50% { transform: translateY(-5px); opacity: 1; }
+    100% { transform: translateY(0); opacity: 0.8; }
+}
+
+@keyframes reality-break {
+    0% { clip-path: inset(0 0 0 0); }
+    25% { clip-path: inset(10% -6px 90% 0); }
+    50% { clip-path: inset(40% 0 50% 0); }
+    75% { clip-path: inset(70% 0 30% 0); }
+    100% { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes matrix-rain {
+    0% { 
+        text-shadow: var(--matrix-glow);
+        transform: translateY(-100%);
+    }
+    100% { 
+        text-shadow: none;
+        transform: translateY(100%);
+    }
+}
+
+/* Neural Interface Foundation */
+body {
+    background-color: var(--matrix-black);
+    color: var(--matrix-green);
+    font-family: 'Courier Prime', monospace;
+    line-height: 1.6;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        0deg,
+        var(--matrix-black) 0px,
+        var(--matrix-black) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+    opacity: 0.1;
+    pointer-events: none;
+    z-index: -1;
+    animation: consciousness-wave 8s infinite;
+}
+
+/* Quantum Interface Components */
+.matrix-container {
+    position: relative;
+    z-index: 1;
+    backdrop-filter: var(--neural-blur);
+    padding: 2rem;
+}
+
+.matrix-card {
+    background: rgba(12, 12, 12, 0.95);
+    border: 1px solid var(--matrix-green);
+    box-shadow: var(--matrix-glow);
+    transition: var(--quantum-transition);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.matrix-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent 0%,
+        rgba(0, 255, 65, 0.1) 50%,
+        transparent 100%
+    );
+    transform: rotate(45deg);
+    animation: neural-pulse 3s infinite;
+    pointer-events: none;
+}
+
+/* Neural Typography System */
+.matrix-text {
+    color: var(--matrix-green);
+    text-shadow: var(--matrix-glow);
+    font-family: 'Courier Prime', monospace;
+    position: relative;
+    transition: var(--quantum-transition);
+}
+
+.matrix-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 2rem;
+    text-align: center;
+    animation: reality-break 5s infinite;
+}
+
+/* Quantum Control Interface */
+.matrix-button {
+    background: var(--matrix-dark-green);
+    color: var(--matrix-green);
+    border: 1px solid var(--matrix-green);
+    box-shadow: var(--matrix-glow);
+    transition: var(--quantum-transition);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.matrix-button:hover {
+    background: var(--matrix-green);
+    color: var(--matrix-black);
+    box-shadow: var(--matrix-intense-glow);
+    transform: translateY(-2px);
+}
+
+/* Neural Data Visualization */
+.matrix-chart {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid var(--matrix-green);
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.matrix-chart canvas {
+    filter: drop-shadow(0 0 10px rgba(0, 255, 65, 0.2));
+}
+
+/* Unity Field Controls */
+.matrix-input {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid var(--matrix-green);
+    color: var(--matrix-green);
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    transition: var(--quantum-transition);
+}
+
+.matrix-input:focus {
+    outline: none;
+    border-color: var(--matrix-bright-green);
+    box-shadow: var(--matrix-glow);
+}
+
+/* Quantum Loading Interface */
+.matrix-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--matrix-black);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matrix-loading::before {
+    content: "1+1=1";
+    position: absolute;
+    font-size: 2rem;
+    color: var(--matrix-green);
+    animation: matrix-rain 2s linear infinite;
+}
+
+/* Neural Responsive Optimization */
+@media (max-width: 768px) {
+    .matrix-header {
+        font-size: 1.8rem;
+    }
+    
+    .matrix-container {
+        padding: 1rem;
+    }
+    
+    .matrix-button {
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Quantum Scrollbar Interface */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: var(--matrix-black);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--matrix-dark-green);
+    border: 1px solid var(--matrix-green);
+    box-shadow: var(--matrix-glow);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--matrix-green);
+    box-shadow: var(--matrix-intense-glow);
+}
+
+/* Unity Field Navigation */
+.matrix-nav {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid var(--matrix-green);
+    box-shadow: var(--matrix-glow);
+}
+
+.matrix-nav-item {
+    color: var(--matrix-green);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: var(--quantum-transition);
+}
+
+.matrix-nav-item:hover {
+    color: var(--matrix-bright-green);
+    text-shadow: var(--matrix-intense-glow);
+}
+
+/* Consciousness Grid System */
+.matrix-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1.5rem;
+}
+
+/* Neural Alert System */
+.matrix-alert {
+    background: rgba(0, 255, 65, 0.1);
+    border: 1px solid var(--matrix-green);
+    color: var(--matrix-green);
+    padding: 1rem;
+    margin: 1rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.matrix-alert::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        transparent 0%,
+        rgba(0, 255, 65, 0.1) 50%,
+        transparent 100%
+    );
+    animation: neural-pulse 2s infinite;
+}

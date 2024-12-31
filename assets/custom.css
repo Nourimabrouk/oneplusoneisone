@@ -1,0 +1,300 @@
+/**
+ * Neural Bridge Interface - Advanced Customization Layer
+ * Quantum-Enhanced Visual Processing System v2.25
+ * 
+ * Performance Optimization Notes:
+ * - GPU-accelerated animations using transform and opacity
+ * - Minimal DOM reflow through composite properties
+ * - Memory-efficient variable system
+ * - Hardware-accelerated blur effects
+ */
+
+/* Core System Variables - Optimized for GPU Acceleration */
+:root {
+    /* Quantum Field Parameters */
+    --qbit-green: #39ff14;
+    --neural-green: #00ff41;
+    --synapse-green: #00ff9f;
+    --void-black: #0c0c0c;
+    --deep-void: #050505;
+    
+    /* Field Effect Optimizations */
+    --quantum-glow: 0 0 15px var(--neural-green);
+    --neural-shadow: 0 4px 15px rgba(0, 255, 65, 0.2);
+    --quantum-transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                         opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hardware-Accelerated Quantum Effects */
+.quantum-field {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        45deg,
+        rgba(0, 255, 65, 0.1),
+        transparent 60%
+    );
+    pointer-events: none;
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+/* Neural Processing Animations */
+@keyframes neural-pulse {
+    0%, 100% { 
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    50% { 
+        transform: scale(1.05);
+        opacity: 1;
+    }
+}
+
+@keyframes quantum-flicker {
+    0%, 100% { opacity: 1; }
+    25% { opacity: 0.7; }
+    50% { opacity: 0.9; }
+    75% { opacity: 0.8; }
+}
+
+@keyframes data-stream {
+    0% {
+        transform: translateY(-100%) translateZ(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100%) translateZ(0);
+        opacity: 0;
+    }
+}
+
+.quantum-slider {
+    padding: 0;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.quantum-slider:hover {
+    opacity: 1;
+}
+
+.matrix-text-sm {
+    font-size: 0.8rem;
+    color: var(--matrix-green);
+    opacity: 0.8;
+}
+
+/* Optimize slider aesthetics */
+.quantum-slider .rc-slider-rail {
+    background-color: rgba(0, 255, 65, 0.1);
+}
+
+.quantum-slider .rc-slider-track {
+    background-color: rgba(0, 255, 65, 0.5);
+}
+
+.quantum-slider .rc-slider-handle {
+    border-color: var(--matrix-green);
+    background-color: var(--matrix-dark-green);
+}
+
+/* Enhanced Container Systems */
+.neural-container {
+    position: relative;
+    background: var(--void-black);
+    min-height: 100vh;
+    overflow: hidden;
+    transform: translateZ(0);
+}
+
+.neural-container::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+        90deg,
+        rgba(0, 255, 65, 0.03) 0px,
+        rgba(0, 255, 65, 0.03) 1px,
+        transparent 1px,
+        transparent 3px
+    );
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Quantum Card Interface */
+.quantum-card {
+    background: rgba(5, 5, 5, 0.95);
+    border: 1px solid var(--neural-green);
+    box-shadow: var(--quantum-glow);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: var(--quantum-transition);
+    transform: translateZ(0);
+}
+
+.quantum-card:hover {
+    transform: translateY(-2px) translateZ(0);
+    box-shadow: 0 0 30px var(--neural-green);
+}
+
+/* Neural Network Visualization */
+.neural-graph {
+    position: relative;
+    border: 1px solid var(--neural-green);
+    background: rgba(5, 5, 5, 0.9);
+    overflow: hidden;
+}
+
+.neural-graph::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        45deg,
+        transparent 0%,
+        rgba(0, 255, 65, 0.1) 50%,
+        transparent 100%
+    );
+    animation: neural-pulse 4s infinite;
+}
+
+/* Quantum Control Interface */
+.quantum-button {
+    background: rgba(0, 59, 0, 0.9);
+    color: var(--neural-green);
+    border: 1px solid var(--neural-green);
+    padding: 0.75rem 1.5rem;
+    font-family: 'Courier Prime', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: var(--quantum-transition);
+    transform: translateZ(0);
+}
+
+.quantum-button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        rgba(0, 255, 65, 0.2),
+        transparent
+    );
+    transform: translateX(-100%) translateZ(0) rotate(45deg);
+    transition: transform 0.6s;
+}
+
+.quantum-button:hover::before {
+    transform: translateX(100%) translateZ(0) rotate(45deg);
+}
+
+.quantum-button:hover {
+    background: var(--neural-green);
+    color: var(--void-black);
+    box-shadow: var(--quantum-glow);
+    transform: translateY(-2px) translateZ(0);
+}
+
+/* Neural Typography System */
+.neural-text {
+    color: var(--neural-green);
+    font-family: 'Courier Prime', monospace;
+    text-shadow: 0 0 10px var(--neural-green);
+    animation: quantum-flicker 4s infinite;
+}
+
+.quantum-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+/* Data Stream Effects */
+.data-stream {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.data-particle {
+    position: absolute;
+    color: var(--neural-green);
+    font-family: 'Courier Prime', monospace;
+    font-size: 14px;
+    opacity: 0;
+    animation: data-stream 3s linear infinite;
+    will-change: transform, opacity;
+}
+
+/* Quantum Loading Interface */
+.quantum-loader {
+    position: fixed;
+    inset: 0;
+    background: var(--void-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.quantum-loader::after {
+    content: "1+1=1";
+    color: var(--neural-green);
+    font-size: 2rem;
+    font-family: 'Courier Prime', monospace;
+    animation: quantum-flicker 2s infinite;
+}
+
+/* Optimized Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--void-black);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--neural-green);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--synapse-green);
+}
+
+/* Neural Media Queries */
+@media (max-width: 768px) {
+    .quantum-header {
+        font-size: 1.8rem;
+    }
+    
+    .quantum-button {
+        padding: 0.5rem 1rem;
+    }
+    
+    .neural-container {
+        padding: 1rem;
+    }
+}
