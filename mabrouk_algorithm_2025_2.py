@@ -753,7 +753,6 @@ def final_visual_unity_demonstration():
     plt.tight_layout()
     plt.show()
 
-
 def main():
     """
     MAIN ORCHESTRATION:

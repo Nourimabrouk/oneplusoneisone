@@ -78,6 +78,7 @@ from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output, State
 from dash import callback_context
+
 # Plotly for visualizations
 import plotly.graph_objects as go
 import plotly.express as px
