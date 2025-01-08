@@ -294,3 +294,1818 @@ AttributeError: 'dict' object has no attribute 'states'
 2025-01-05 12:09:42,071 - INFO - Initializing framework with φ-optimal dimension: 6
 2025-01-05 12:09:42,076 - INFO - Framework initialized with dimension 6
 2025-01-05 12:09:42,076 - INFO - Components initialized: quantum_topos, consciousness_field, love_field
+2025-01-05 12:11:23,508 - ERROR - Unity framework demonstration failed: 0-dimensional array given. Array must be at least two-dimensional
+2025-01-05 12:11:23,537 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5153, in main
+    econometric_results = await analyze_quantum_econometrics(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5009, in analyze_quantum_econometrics
+    return econometrics.analyze_quantum_dynamics(coherence.reshape(-1, 1))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4528, in analyze_quantum_dynamics
+    results["cointegration"] = self._test_cointegration(time_series)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4542, in _test_cointegration
+    eigenvalues, eigenvectors = np.linalg.eig(np.cov(time_series, rowvar=False))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<__array_function__ internals>", line 180, in eig
+  File "C:\Users\Nouri\AppData\Roaming\Python\Python311\site-packages\numpy\linalg\linalg.py", line 1310, in eig
+    _assert_stacked_2d(a)
+  File "C:\Users\Nouri\AppData\Roaming\Python\Python311\site-packages\numpy\linalg\linalg.py", line 197, in _assert_stacked_2d
+    raise LinAlgError('%d-dimensional array given. Array must be '
+numpy.linalg.LinAlgError: 0-dimensional array given. Array must be at least two-dimensional
+
+2025-01-05 12:26:33,359 - INFO - Initiating Unity Framework Demonstration
+2025-01-05 12:26:33,360 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-05 12:26:33,363 - INFO - Framework initialized with dimension 6
+2025-01-05 12:26:33,363 - INFO - Components initialized: quantum_topos, consciousness_field, love_field
+2025-01-05 12:28:09,971 - ERROR - Cointegration test failed: tuple index out of range
+2025-01-05 12:28:09,971 - ERROR - Unity framework demonstration failed: tuple index out of range
+2025-01-05 12:28:09,975 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5179, in main
+    econometric_results = await analyze_quantum_econometrics(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5035, in analyze_quantum_econometrics
+    return econometrics.analyze_quantum_dynamics(coherence.reshape(-1, 1))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4528, in analyze_quantum_dynamics
+    results["cointegration"] = self._test_cointegration(time_series)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4560, in _test_cointegration
+    if np.linalg.matrix_rank(cov_matrix) < cov_matrix.shape[0]:
+                                           ~~~~~~~~~~~~~~~~^^^
+IndexError: tuple index out of range
+
+2025-01-05 12:36:05,888 - INFO - Initiating Unity Framework Demonstration
+2025-01-05 12:36:05,892 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-05 12:36:05,900 - INFO - Framework initialized with dimension 6
+2025-01-05 12:36:05,900 - INFO - Components initialized: quantum_topos, consciousness_field, love_field
+2025-01-05 12:37:42,329 - ERROR - Cointegration test failed: Time series must have at least two variables (columns).
+2025-01-05 12:37:42,329 - ERROR - Unity framework demonstration failed: Time series must have at least two variables (columns).
+2025-01-05 12:37:42,332 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5187, in main
+    econometric_results = await analyze_quantum_econometrics(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5043, in analyze_quantum_econometrics
+    return econometrics.analyze_quantum_dynamics(coherence.reshape(-1, 1))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4528, in analyze_quantum_dynamics
+    results["cointegration"] = self._test_cointegration(time_series)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4558, in _test_cointegration
+    raise ValueError("Time series must have at least two variables (columns).")
+ValueError: Time series must have at least two variables (columns).
+
+2025-01-06 12:09:53,145 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 12:09:53,146 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 12:09:53,157 - INFO - Framework initialized with dimension 6
+2025-01-06 12:09:53,157 - INFO - Components initialized: quantum_topos, consciousness_field, love_field
+2025-01-06 12:09:53,177 - ERROR - Unity framework demonstration failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 12:09:53,178 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1829, in evolve_sheaves
+    meta_optimized = self._optimize_meta_level(consciousness_coupled)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1965, in _optimize_meta_level
+    meta_field = self.field_configuration @ state
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+ValueError: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5088, in main
+    quantum_evolution_results = await execute_quantum_evolution(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4922, in execute_quantum_evolution
+    quantum_state = framework["quantum_topos"].evolve_sheaves(quantum_state)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1841, in evolve_sheaves
+    raise QuantumToposError(f"Evolution failed: {str(e)}")
+QuantumToposError: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+
+2025-01-06 12:30:18,938 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 12:30:18,940 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 12:30:18,946 - INFO - Framework initialized with dimension 6
+2025-01-06 12:30:18,946 - INFO - Components initialized: quantum_topos, consciousness_field, love_field
+2025-01-06 12:30:18,948 - ERROR - Unity framework demonstration failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 12:30:18,951 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1833, in evolve_sheaves
+    meta_optimized = self._optimize_meta_level(consciousness_coupled)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1973, in _optimize_meta_level
+    meta_field = self.field_configuration @ state
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+ValueError: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5327, in main
+    quantum_evolution_results = await execute_quantum_evolution(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4930, in execute_quantum_evolution
+    quantum_state = framework["quantum_topos"].evolve_sheaves(quantum_state)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1845, in evolve_sheaves
+    raise QuantumToposError(f"Evolution failed: {str(e)}")
+QuantumToposError: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+
+2025-01-06 12:54:02,437 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 12:54:02,438 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 12:54:02,444 - INFO - Framework initialized with dimension 6
+2025-01-06 12:54:02,444 - INFO - Components initialized: quantum_topos, consciousness_field, love_field
+2025-01-06 12:54:02,446 - ERROR - Unity framework demonstration failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 12:54:02,451 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1833, in evolve_sheaves
+    meta_optimized = self._optimize_meta_level(consciousness_coupled)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1973, in _optimize_meta_level
+    meta_field = self.field_configuration @ state
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+ValueError: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5677, in main
+    quantum_evolution_results = await execute_quantum_evolution(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4930, in execute_quantum_evolution
+    quantum_state = framework["quantum_topos"].evolve_sheaves(quantum_state)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1845, in evolve_sheaves
+    raise QuantumToposError(f"Evolution failed: {str(e)}")
+QuantumToposError: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+
+2025-01-06 12:57:12,962 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 12:57:12,963 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 12:57:12,966 - ERROR - Field configuration initialization failed: incompatible dimensions for cross product
+(dimension must be 2 or 3)
+2025-01-06 12:57:12,967 - ERROR - Framework initialization failed: Failed to initialize field configuration
+2025-01-06 12:57:12,967 - ERROR - Unity framework demonstration failed: Critical initialization error: Failed to initialize field configuration
+2025-01-06 12:57:13,006 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1618, in _initialize_field_config
+    topological_charge = float(np.sum(np.cross(
+                                      ^^^^^^^^^
+  File "<__array_function__ internals>", line 180, in cross
+  File "C:\Users\Nouri\AppData\Roaming\Python\Python311\site-packages\numpy\core\numeric.py", line 1613, in cross
+    raise ValueError(msg)
+ValueError: incompatible dimensions for cross product
+(dimension must be 2 or 3)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4897, in initialize_framework
+    quantum_topos, consciousness_field, love_field = await asyncio.gather(
+                                                     ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1317, in execute_quantum_task
+    return await loop.run_in_executor(self.thread_pool, task, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1360, in __init__
+    self.field_configuration = self._initialize_field_config()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1640, in _initialize_field_config
+    raise QuantumToposError("Failed to initialize field configuration")
+QuantumToposError: Failed to initialize field configuration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5680, in main
+    framework = await initialize_framework(dimension)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4912, in initialize_framework
+    raise RuntimeError(f"Critical initialization error: {e}")
+RuntimeError: Critical initialization error: Failed to initialize field configuration
+
+2025-01-06 12:58:47,382 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 12:58:47,383 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 12:58:47,386 - INFO - Framework initialized with dimension 6
+2025-01-06 12:58:47,387 - INFO - Components initialized: quantum_topos, consciousness_field, love_field
+2025-01-06 12:58:47,387 - ERROR - Evolution failed: 'dt'
+2025-01-06 12:58:47,387 - ERROR - Unity framework demonstration failed: Evolution failed: 'dt'
+2025-01-06 12:58:47,390 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1846, in evolve_sheaves
+    quantum_evolved = self._evolve_quantum_optimized(current_state, self.config['dt'])
+                                                                    ~~~~~~~~~~~^^^^^^
+KeyError: 'dt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5711, in main
+    quantum_evolution_results = await execute_quantum_evolution(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4964, in execute_quantum_evolution
+    quantum_state = framework["quantum_topos"].evolve_sheaves(quantum_state)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1858, in evolve_sheaves
+    raise QuantumToposError(f"Evolution failed: {str(e)}")
+QuantumToposError: Evolution failed: 'dt'
+
+2025-01-06 13:09:08,259 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:09:27,664 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:09:27,664 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:09:27,668 - INFO - Framework initialized with dimension 6
+2025-01-06 13:09:27,668 - INFO - Components initialized: quantum_topos, consciousness_field, love_field
+2025-01-06 13:09:27,670 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:09:27,670 - ERROR - Evolution step failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:09:27,691 - ERROR - Unity framework demonstration failed: index -1 is out of bounds for axis 0 with size 0
+2025-01-06 13:09:27,694 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5713, in main
+    meta_results = await synthesize_meta_reality(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5008, in synthesize_meta_reality
+    quantum_state=states[-1],
+                  ~~~~~~^^^^
+IndexError: index -1 is out of bounds for axis 0 with size 0
+
+2025-01-06 13:11:38,169 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:11:38,170 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:11:38,174 - INFO - Framework initialized with dimension 6
+2025-01-06 13:11:38,175 - INFO - Components initialized: quantum_topos, consciousness_field, love_field
+2025-01-06 13:11:38,176 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,176 - WARNING - Evolution step 0 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,177 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,177 - WARNING - Evolution step 1 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,178 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,178 - WARNING - Evolution step 2 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,179 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,179 - WARNING - Evolution step 3 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,180 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,180 - WARNING - Evolution step 4 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,181 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,181 - WARNING - Evolution step 5 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,181 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,182 - WARNING - Evolution step 6 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,182 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,182 - WARNING - Evolution step 7 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,183 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,183 - WARNING - Evolution step 8 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,184 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,184 - WARNING - Evolution step 9 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,184 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,185 - WARNING - Evolution step 10 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,185 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,186 - WARNING - Evolution step 11 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,186 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,186 - WARNING - Evolution step 12 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,187 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,187 - WARNING - Evolution step 13 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,187 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,187 - WARNING - Evolution step 14 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,188 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,188 - WARNING - Evolution step 15 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,189 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,189 - WARNING - Evolution step 16 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,190 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,190 - WARNING - Evolution step 17 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,190 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,190 - WARNING - Evolution step 18 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,191 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,191 - WARNING - Evolution step 19 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,192 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,192 - WARNING - Evolution step 20 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,192 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,192 - WARNING - Evolution step 21 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,193 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,193 - WARNING - Evolution step 22 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,194 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,194 - WARNING - Evolution step 23 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,194 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,194 - WARNING - Evolution step 24 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,195 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,195 - WARNING - Evolution step 25 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,196 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,196 - WARNING - Evolution step 26 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,197 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,197 - WARNING - Evolution step 27 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,198 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,198 - WARNING - Evolution step 28 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,199 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,199 - WARNING - Evolution step 29 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,200 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,200 - WARNING - Evolution step 30 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,201 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,201 - WARNING - Evolution step 31 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,202 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,202 - WARNING - Evolution step 32 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,203 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,203 - WARNING - Evolution step 33 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,204 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,204 - WARNING - Evolution step 34 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,204 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,204 - WARNING - Evolution step 35 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,205 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,205 - WARNING - Evolution step 36 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,205 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,206 - WARNING - Evolution step 37 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,206 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,206 - WARNING - Evolution step 38 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,207 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,207 - WARNING - Evolution step 39 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,208 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,208 - WARNING - Evolution step 40 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,208 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,208 - WARNING - Evolution step 41 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,209 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,209 - WARNING - Evolution step 42 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,210 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,210 - WARNING - Evolution step 43 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,210 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,210 - WARNING - Evolution step 44 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,211 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,211 - WARNING - Evolution step 45 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,212 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,212 - WARNING - Evolution step 46 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,213 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,213 - WARNING - Evolution step 47 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,213 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,213 - WARNING - Evolution step 48 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,214 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,214 - WARNING - Evolution step 49 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,215 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,215 - WARNING - Evolution step 50 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,216 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,216 - WARNING - Evolution step 51 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,216 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,216 - WARNING - Evolution step 52 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,217 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,217 - WARNING - Evolution step 53 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,218 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,218 - WARNING - Evolution step 54 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,219 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,219 - WARNING - Evolution step 55 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,220 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,220 - WARNING - Evolution step 56 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,220 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,221 - WARNING - Evolution step 57 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,221 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,221 - WARNING - Evolution step 58 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,222 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,222 - WARNING - Evolution step 59 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,222 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,222 - WARNING - Evolution step 60 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,223 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,223 - WARNING - Evolution step 61 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,224 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,224 - WARNING - Evolution step 62 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,224 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,224 - WARNING - Evolution step 63 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,225 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,225 - WARNING - Evolution step 64 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,226 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,226 - WARNING - Evolution step 65 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,226 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,226 - WARNING - Evolution step 66 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,227 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,227 - WARNING - Evolution step 67 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,228 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,228 - WARNING - Evolution step 68 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,228 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,228 - WARNING - Evolution step 69 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,229 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,229 - WARNING - Evolution step 70 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,229 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,229 - WARNING - Evolution step 71 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,230 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,230 - WARNING - Evolution step 72 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,231 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,231 - WARNING - Evolution step 73 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,231 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,232 - WARNING - Evolution step 74 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,233 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,233 - WARNING - Evolution step 75 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,233 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,234 - WARNING - Evolution step 76 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,234 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,234 - WARNING - Evolution step 77 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,235 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,235 - WARNING - Evolution step 78 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,236 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,236 - WARNING - Evolution step 79 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,237 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,237 - WARNING - Evolution step 80 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,238 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,238 - WARNING - Evolution step 81 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,239 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,239 - WARNING - Evolution step 82 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,239 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,240 - WARNING - Evolution step 83 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,240 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,240 - WARNING - Evolution step 84 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,241 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,241 - WARNING - Evolution step 85 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,242 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,242 - WARNING - Evolution step 86 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,243 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,243 - WARNING - Evolution step 87 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,243 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,244 - WARNING - Evolution step 88 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,244 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,244 - WARNING - Evolution step 89 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,245 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,245 - WARNING - Evolution step 90 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,246 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,246 - WARNING - Evolution step 91 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,246 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,246 - WARNING - Evolution step 92 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,247 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,247 - WARNING - Evolution step 93 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,248 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,248 - WARNING - Evolution step 94 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,249 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,249 - WARNING - Evolution step 95 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,250 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,250 - WARNING - Evolution step 96 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,250 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,251 - WARNING - Evolution step 97 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,251 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,251 - WARNING - Evolution step 98 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,252 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,252 - WARNING - Evolution step 99 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,253 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,253 - WARNING - Evolution step 100 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,253 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,253 - WARNING - Evolution step 101 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,254 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,254 - WARNING - Evolution step 102 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,255 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,255 - WARNING - Evolution step 103 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,256 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,256 - WARNING - Evolution step 104 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,256 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,256 - WARNING - Evolution step 105 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,257 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,257 - WARNING - Evolution step 106 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,257 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,257 - WARNING - Evolution step 107 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,258 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,258 - WARNING - Evolution step 108 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,259 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,259 - WARNING - Evolution step 109 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,259 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,260 - WARNING - Evolution step 110 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,260 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,261 - WARNING - Evolution step 111 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,261 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,261 - WARNING - Evolution step 112 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,262 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,262 - WARNING - Evolution step 113 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,262 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,262 - WARNING - Evolution step 114 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,263 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,263 - WARNING - Evolution step 115 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,263 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,264 - WARNING - Evolution step 116 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,264 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,264 - WARNING - Evolution step 117 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,265 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,265 - WARNING - Evolution step 118 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,265 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,266 - WARNING - Evolution step 119 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,266 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,266 - WARNING - Evolution step 120 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,267 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,267 - WARNING - Evolution step 121 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,268 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,268 - WARNING - Evolution step 122 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,269 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,269 - WARNING - Evolution step 123 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,269 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,270 - WARNING - Evolution step 124 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,270 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,270 - WARNING - Evolution step 125 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,271 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,271 - WARNING - Evolution step 126 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,272 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,272 - WARNING - Evolution step 127 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,273 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,273 - WARNING - Evolution step 128 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,273 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,274 - WARNING - Evolution step 129 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,274 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,275 - WARNING - Evolution step 130 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,275 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,275 - WARNING - Evolution step 131 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,276 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,276 - WARNING - Evolution step 132 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,277 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,277 - WARNING - Evolution step 133 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,278 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,278 - WARNING - Evolution step 134 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,279 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,279 - WARNING - Evolution step 135 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,280 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,280 - WARNING - Evolution step 136 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,281 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,281 - WARNING - Evolution step 137 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,281 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,281 - WARNING - Evolution step 138 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,282 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,282 - WARNING - Evolution step 139 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,283 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,283 - WARNING - Evolution step 140 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,283 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,284 - WARNING - Evolution step 141 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,284 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,285 - WARNING - Evolution step 142 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,285 - ERROR - Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,286 - WARNING - Evolution step 143 failed: Evolution failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:11:38,299 - ERROR - Cointegration test failed: Not enough observations for cointegration analysis.
+2025-01-06 13:11:38,299 - ERROR - Unity framework demonstration failed: Not enough observations for cointegration analysis.
+2025-01-06 13:11:38,304 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5738, in main
+    econometric_results = await analyze_quantum_econometrics(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5040, in analyze_quantum_econometrics
+    return econometrics.analyze_quantum_dynamics(coherence.reshape(-1, 1))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4495, in analyze_quantum_dynamics
+    results["cointegration"] = self._test_cointegration(time_series)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4523, in _test_cointegration
+    raise ValueError("Not enough observations for cointegration analysis.")
+ValueError: Not enough observations for cointegration analysis.
+
+2025-01-06 13:17:32,842 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:17:32,842 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:17:32,857 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,861 - WARNING - Evolution quality check failed
+2025-01-06 13:17:32,861 - INFO - Framework initialized with dimension 6
+2025-01-06 13:17:32,861 - INFO - Components initialized: quantum_topos, consciousness_field, love_field, initialized
+2025-01-06 13:17:32,862 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,862 - WARNING - Evolution quality check failed
+2025-01-06 13:17:32,863 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,863 - WARNING - Evolution quality check failed
+2025-01-06 13:17:32,864 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,865 - WARNING - Evolution quality check failed
+2025-01-06 13:17:32,865 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,867 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,868 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,869 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,870 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,871 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,872 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,873 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,874 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,875 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,876 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,877 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,878 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,879 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,880 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,882 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,883 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,884 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,885 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,886 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,886 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,887 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,888 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,889 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,890 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,892 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,893 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,893 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,894 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,895 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,897 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,898 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,899 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,901 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,902 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,903 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,904 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,905 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,906 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,907 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,908 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,908 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,909 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,910 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,911 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,912 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,913 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,914 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,916 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,918 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,919 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,920 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,921 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,922 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,923 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,924 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,925 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,926 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,927 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,929 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,931 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,933 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,935 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,936 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,937 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,939 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,940 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,942 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,943 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,945 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,946 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,948 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,949 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,951 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,952 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,953 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,955 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,956 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,957 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,958 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,960 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,961 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,962 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,964 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,965 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,967 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,968 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,969 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,970 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,971 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,972 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,973 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,974 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,975 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,976 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,977 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,978 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,978 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,979 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,980 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,981 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,982 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,984 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,985 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,985 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,986 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,987 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,988 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,989 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,990 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,991 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,992 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,993 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,994 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,995 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,996 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,997 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,998 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:32,999 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,000 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,001 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,003 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,004 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,006 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,007 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,008 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,009 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,010 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,011 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,012 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,013 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,014 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,015 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,016 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,017 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,018 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,019 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,020 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,021 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,022 - ERROR - Evolution step 2 failed: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-06 13:17:33,031 - ERROR - Cointegration test failed: Time series must have at least two variables (columns).
+2025-01-06 13:17:33,031 - ERROR - Unity framework demonstration failed: Time series must have at least two variables (columns).
+2025-01-06 13:17:33,034 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5814, in main
+    econometric_results = await analyze_quantum_econometrics(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5117, in analyze_quantum_econometrics
+    return econometrics.analyze_quantum_dynamics(coherence.reshape(-1, 1))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4584, in analyze_quantum_dynamics
+    results["cointegration"] = self._test_cointegration(time_series)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4614, in _test_cointegration
+    raise ValueError("Time series must have at least two variables (columns).")
+ValueError: Time series must have at least two variables (columns).
+
+2025-01-06 13:23:00,502 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:23:00,503 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:23:00,504 - ERROR - Evolution step 0 failed: State dimension 1 != 6
+2025-01-06 13:23:00,504 - ERROR - Framework initialization failed: Evolution validation failed
+2025-01-06 13:23:00,504 - ERROR - Unity framework demonstration failed: Critical initialization error: Evolution validation failed
+2025-01-06 13:23:00,507 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5260, in initialize_framework
+    raise ValueError("Evolution validation failed")
+ValueError: Evolution validation failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6030, in main
+    framework = await initialize_framework(dimension)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5272, in initialize_framework
+    raise RuntimeError(f"Critical initialization error: {e}")
+RuntimeError: Critical initialization error: Evolution validation failed
+
+2025-01-06 13:27:17,824 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:27:17,825 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:27:17,825 - ERROR - Evolution step 0 failed: name 'scipy' is not defined
+2025-01-06 13:27:17,825 - ERROR - Framework initialization failed: Evolution validation failed: Invalid shape (3, 1, 6)
+2025-01-06 13:27:17,826 - ERROR - Unity framework demonstration failed: Critical initialization error: Evolution validation failed: Invalid shape (3, 1, 6)
+2025-01-06 13:27:17,829 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5262, in initialize_framework
+    raise ValueError(f"Evolution validation failed: Invalid shape {evolved_states.shape}")
+ValueError: Evolution validation failed: Invalid shape (3, 1, 6)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6031, in main
+    framework = await initialize_framework(dimension)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5274, in initialize_framework
+    raise RuntimeError(f"Critical initialization error: {e}")
+RuntimeError: Critical initialization error: Evolution validation failed: Invalid shape (3, 1, 6)
+
+2025-01-06 13:29:51,360 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:29:51,361 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:29:51,362 - INFO - Framework initialized with dimension 6
+2025-01-06 13:29:51,363 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:29:51,406 - ERROR - Cointegration test failed: Time series must have at least two variables (columns).
+2025-01-06 13:29:51,406 - ERROR - Unity framework demonstration failed: Time series must have at least two variables (columns).
+2025-01-06 13:29:51,411 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6041, in main
+    econometric_results = await analyze_quantum_econometrics(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5344, in analyze_quantum_econometrics
+    return econometrics.analyze_quantum_dynamics(coherence.reshape(-1, 1))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4735, in analyze_quantum_dynamics
+    results["cointegration"] = self._test_cointegration(time_series)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4765, in _test_cointegration
+    raise ValueError("Time series must have at least two variables (columns).")
+ValueError: Time series must have at least two variables (columns).
+
+2025-01-06 13:32:59,503 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:32:59,504 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:32:59,505 - INFO - Framework initialized with dimension 6
+2025-01-06 13:32:59,505 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:32:59,551 - ERROR - Unity framework demonstration failed: operands could not be broadcast together with shapes (144,2) (2,2) 
+2025-01-06 13:32:59,555 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6045, in main
+    econometric_results = await analyze_quantum_econometrics(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5348, in analyze_quantum_econometrics
+    return econometrics.analyze_quantum_dynamics(coherence_2d)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4734, in analyze_quantum_dynamics
+    results["var"] = self._analyze_var_model(time_series)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4744, in _analyze_var_model
+    return {"coefficients": coefficients, "residuals": time_series - coefficients}
+                                                       ~~~~~~~~~~~~^~~~~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (144,2) (2,2) 
+
+2025-01-06 13:36:16,229 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:36:16,233 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:36:16,234 - INFO - Framework initialized with dimension 6
+2025-01-06 13:36:16,234 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:36:16,264 - ERROR - Unity framework demonstration failed: operands could not be broadcast together with shapes (144,2) (2,2) 
+2025-01-06 13:36:16,267 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6059, in main
+    econometric_results = await analyze_quantum_econometrics(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5363, in analyze_quantum_econometrics
+    return econometrics.analyze_quantum_dynamics(coherence_2d)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4734, in analyze_quantum_dynamics
+    results["var"] = self._analyze_var_model(time_series)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4744, in _analyze_var_model
+    return {"coefficients": coefficients, "residuals": time_series - coefficients}
+                                                       ~~~~~~~~~~~~^~~~~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (144,2) (2,2) 
+
+2025-01-06 13:38:09,014 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:38:09,015 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:38:09,017 - INFO - Framework initialized with dimension 6
+2025-01-06 13:38:09,017 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:38:09,048 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 13:38:09,050 - ERROR - Unity framework demonstration failed: 'numpy.ndarray' object has no attribute 'apply'
+2025-01-06 13:38:09,053 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6129, in main
+    love_results = await integrate_love_field(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5438, in integrate_love_field
+    return love_framework.demonstrate_love_unity(state1, state2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1105, in demonstrate_love_unity
+    entangled = self._love_entangle(state1, state2)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1138, in _love_entangle
+    love_enhanced = self.love_field.love_operator.apply(superposition)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'apply'
+
+2025-01-06 13:43:44,299 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:43:44,301 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:43:44,303 - INFO - Framework initialized with dimension 6
+2025-01-06 13:43:44,303 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:43:44,345 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 13:43:44,347 - ERROR - Unity framework demonstration failed: 'UnityLoveOperator' object has no attribute 'transform'
+2025-01-06 13:43:44,353 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6160, in main
+    love_results = await integrate_love_field(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5469, in integrate_love_field
+    return love_framework.demonstrate_love_unity(state1, state2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1157, in demonstrate_love_unity
+    entangled = self._love_entangle(state1, state2)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1179, in _love_entangle
+    love_enhanced = self.love_operator.transform(superposition)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityLoveOperator' object has no attribute 'transform'
+
+2025-01-06 13:45:07,206 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:45:07,207 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:45:07,208 - INFO - Framework initialized with dimension 6
+2025-01-06 13:45:07,208 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:45:07,237 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 13:45:07,239 - ERROR - Unity framework demonstration failed: UnityResult.__init__() got an unexpected keyword argument 'state'
+2025-01-06 13:45:07,242 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6132, in main
+    love_results = await integrate_love_field(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5441, in integrate_love_field
+    return love_framework.demonstrate_love_unity(state1, state2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1161, in demonstrate_love_unity
+    return UnityResult(
+           ^^^^^^^^^^^^
+TypeError: UnityResult.__init__() got an unexpected keyword argument 'state'
+
+2025-01-06 13:46:40,346 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:46:40,347 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:46:40,348 - INFO - Framework initialized with dimension 6
+2025-01-06 13:46:40,349 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:46:40,379 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 13:46:40,380 - ERROR - Unity framework demonstration failed: UnityResult.__init__() got an unexpected keyword argument 'state'
+2025-01-06 13:46:40,383 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6179, in main
+    love_results = await integrate_love_field(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5488, in integrate_love_field
+    return love_framework.demonstrate_love_unity(state1, state2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1197, in demonstrate_love_unity
+    return UnityResult(
+           ^^^^^^^^^^^^
+TypeError: UnityResult.__init__() got an unexpected keyword argument 'state'
+
+2025-01-06 13:48:07,022 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:48:07,030 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:48:07,031 - INFO - Framework initialized with dimension 6
+2025-01-06 13:48:07,031 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:48:07,060 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 13:48:07,061 - ERROR - Unity framework demonstration failed: UnityResult.__init__() got an unexpected keyword argument 'state'
+2025-01-06 13:48:07,064 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6179, in main
+    love_results = await integrate_love_field(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5488, in integrate_love_field
+    return love_framework.demonstrate_love_unity(state1, state2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1197, in demonstrate_love_unity
+    return UnityResult(
+           ^^^^^^^^^^^^
+TypeError: UnityResult.__init__() got an unexpected keyword argument 'state'
+
+2025-01-06 13:49:35,252 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:49:35,253 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:49:35,254 - INFO - Framework initialized with dimension 6
+2025-01-06 13:49:35,255 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:49:35,290 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 13:49:35,291 - ERROR - Unity framework demonstration failed: UnityResult.__init__() got an unexpected keyword argument 'state'
+2025-01-06 13:49:35,296 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6172, in main
+    love_results = await integrate_love_field(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5481, in integrate_love_field
+    return love_framework.demonstrate_love_unity(state1, state2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 1206, in demonstrate_love_unity
+    return UnityResult(
+           ^^^^^^^^^^^^
+TypeError: UnityResult.__init__() got an unexpected keyword argument 'state'
+
+2025-01-06 13:54:52,871 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:54:52,872 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:54:52,873 - INFO - Framework initialized with dimension 6
+2025-01-06 13:54:52,873 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:54:52,903 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 13:54:52,905 - ERROR - Unity framework demonstration failed: operands could not be broadcast together with shapes (10,) (1,6) 
+2025-01-06 13:54:52,908 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6159, in main
+    validation_synthesis = await synthesize_validation(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5480, in synthesize_validation
+    "statistical": validate_complete_unity_statistical(quantum_evolution["states"]),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5144, in validate_complete_unity_statistical
+    meta_results = meta_inference.infer_meta_reality(data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4964, in infer_meta_reality
+    posterior = self.meta_model["bayesian_prior"] * (np.mean(data, axis=0) + 1e-10)
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (10,) (1,6) 
+
+2025-01-06 13:55:13,440 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 13:55:13,455 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 13:55:13,456 - INFO - Framework initialized with dimension 6
+2025-01-06 13:55:13,456 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 13:55:13,484 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 13:55:13,486 - ERROR - Unity framework demonstration failed: operands could not be broadcast together with shapes (10,) (1,6) 
+2025-01-06 13:55:13,489 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6159, in main
+    validation_synthesis = await synthesize_validation(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5480, in synthesize_validation
+    "statistical": validate_complete_unity_statistical(quantum_evolution["states"]),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5144, in validate_complete_unity_statistical
+    meta_results = meta_inference.infer_meta_reality(data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4964, in infer_meta_reality
+    posterior = self.meta_model["bayesian_prior"] * (np.mean(data, axis=0) + 1e-10)
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (10,) (1,6) 
+
+2025-01-06 16:40:07,332 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 16:40:07,332 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 16:40:07,334 - INFO - Framework initialized with dimension 6
+2025-01-06 16:40:07,334 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 16:40:07,371 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 16:40:07,375 - ERROR - Unity framework demonstration failed: operands could not be broadcast together with shapes (10,) (1,6) 
+2025-01-06 16:40:07,379 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6159, in main
+    validation_synthesis = await synthesize_validation(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5480, in synthesize_validation
+    "statistical": validate_complete_unity_statistical(quantum_evolution["states"]),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5144, in validate_complete_unity_statistical
+    meta_results = meta_inference.infer_meta_reality(data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 4964, in infer_meta_reality
+    posterior = self.meta_model["bayesian_prior"] * (np.mean(data, axis=0) + 1e-10)
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (10,) (1,6) 
+
+2025-01-06 16:42:43,639 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 16:42:43,639 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 16:42:43,642 - INFO - Framework initialized with dimension 6
+2025-01-06 16:42:43,642 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 16:42:43,672 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 16:42:43,673 - ERROR - Unity framework demonstration failed: 'dict' object has no attribute 'marker_size'
+2025-01-06 16:42:43,677 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6172, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5499, in generate_visualizations
+    "quantum_evolution": visualizer.visualize_quantum_state(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3482, in visualize_quantum_state
+    size=self.config.marker_size,
+         ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'marker_size'
+
+2025-01-06 16:46:54,710 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 16:46:54,711 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 16:46:54,712 - INFO - Framework initialized with dimension 6
+2025-01-06 16:46:54,712 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 16:46:54,747 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 16:46:54,749 - ERROR - Unity framework demonstration failed: 'dict' object has no attribute 'colorscale'
+2025-01-06 16:46:54,752 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6173, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5500, in generate_visualizations
+    "quantum_evolution": visualizer.visualize_quantum_state(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3485, in visualize_quantum_state
+    colorscale=self.config.colorscale,
+               ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'colorscale'
+
+2025-01-06 16:52:26,626 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 16:52:26,627 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 16:52:26,628 - INFO - Framework initialized with dimension 6
+2025-01-06 16:52:26,628 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 16:52:26,663 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 16:52:28,069 - ERROR - Unity framework demonstration failed: 'UnityVisualizer' object has no attribute 'default_layout'
+2025-01-06 16:52:28,073 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6193, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5526, in generate_visualizations
+    "love_field": visualizer.visualize_love_field(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3725, in visualize_love_field
+    **self.default_layout
+      ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityVisualizer' object has no attribute 'default_layout'
+
+2025-01-06 16:58:12,865 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 16:58:12,866 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 16:58:12,867 - INFO - Framework initialized with dimension 6
+2025-01-06 16:58:12,867 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 16:58:12,893 - WARNING - Distance computation failed, fallback triggered: Unsupported dtype complex128
+2025-01-06 16:58:12,893 - ERROR - Unity framework demonstration failed: name 'distance_matrix' is not defined
+2025-01-06 16:58:12,897 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6158, in main
+    topology_results = await analyze_topology(
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5418, in analyze_topology
+    return analyzer.analyze_unity_topology(states)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 2700, in analyze_unity_topology
+    simplices = self._generate_rips_simplices(distance_matrix, dim)
+                                              ^^^^^^^^^^^^^^^
+NameError: name 'distance_matrix' is not defined
+
+2025-01-06 16:58:30,069 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 16:58:30,069 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 16:58:30,072 - INFO - Framework initialized with dimension 6
+2025-01-06 16:58:30,072 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 16:58:30,095 - WARNING - Distance computation failed, fallback triggered: Unsupported dtype complex128
+2025-01-06 16:58:30,095 - ERROR - Unity framework demonstration failed: name 'distance_matrix' is not defined
+2025-01-06 16:58:30,098 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6158, in main
+    topology_results = await analyze_topology(
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5418, in analyze_topology
+    return analyzer.analyze_unity_topology(states)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 2700, in analyze_unity_topology
+    simplices = self._generate_rips_simplices(distance_matrix, dim)
+                                              ^^^^^^^^^^^^^^^
+NameError: name 'distance_matrix' is not defined
+
+2025-01-06 16:59:02,659 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 16:59:02,661 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 16:59:02,662 - INFO - Framework initialized with dimension 6
+2025-01-06 16:59:02,663 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 16:59:02,688 - WARNING - Distance computation failed, fallback triggered: Unsupported dtype complex128
+2025-01-06 16:59:02,694 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 16:59:03,404 - ERROR - Unity framework demonstration failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+2025-01-06 16:59:03,407 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6202, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5529, in generate_visualizations
+    "quantum_evolution": visualizer.visualize_quantum_state(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3530, in visualize_quantum_state
+    fig.update_layout(
+TypeError: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+
+2025-01-06 17:06:15,742 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 17:06:15,743 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 17:06:15,744 - INFO - Framework initialized with dimension 6
+2025-01-06 17:06:15,744 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 17:06:15,773 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 17:06:16,375 - ERROR - Unity framework demonstration failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+2025-01-06 17:06:16,378 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6206, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5533, in generate_visualizations
+    "quantum_evolution": visualizer.visualize_quantum_state(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3534, in visualize_quantum_state
+    fig.update_layout(
+TypeError: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+
+2025-01-06 17:06:59,613 - INFO - Initiating Unity Framework Demonstration
+2025-01-06 17:06:59,613 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-06 17:06:59,615 - INFO - Framework initialized with dimension 6
+2025-01-06 17:06:59,615 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-06 17:06:59,644 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-06 17:07:00,252 - ERROR - Unity framework demonstration failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+2025-01-06 17:07:00,255 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6207, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5534, in generate_visualizations
+    "quantum_evolution": visualizer.visualize_quantum_state(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3535, in visualize_quantum_state
+    fig.update_layout(
+TypeError: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+
+2025-01-07 11:13:09,106 - INFO - Initiating Unity Framework Demonstration
+2025-01-07 11:13:09,108 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-07 11:13:09,134 - INFO - Framework initialized with dimension 6
+2025-01-07 11:13:09,134 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-07 11:13:09,174 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-07 11:13:10,424 - ERROR - Unity framework demonstration failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+2025-01-07 11:13:10,429 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6206, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5533, in generate_visualizations
+    "quantum_evolution": visualizer.visualize_quantum_state(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3534, in visualize_quantum_state
+    fig.update_layout(
+TypeError: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+
+2025-01-07 11:21:59,646 - INFO - Initiating Unity Framework Demonstration
+2025-01-07 11:21:59,647 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-07 11:21:59,649 - INFO - Framework initialized with dimension 6
+2025-01-07 11:21:59,649 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-07 11:21:59,679 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-07 11:22:00,676 - ERROR - Unity framework demonstration failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+2025-01-07 11:22:00,679 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6208, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5543, in generate_visualizations
+    "love_field": visualizer.visualize_love_field(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3729, in visualize_love_field
+    fig.update_layout(
+TypeError: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+
+2025-01-07 11:23:22,161 - INFO - Initiating Unity Framework Demonstration
+2025-01-07 11:23:22,162 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-07 11:23:22,163 - INFO - Framework initialized with dimension 6
+2025-01-07 11:23:22,163 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-07 11:23:22,198 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-07 11:23:23,050 - ERROR - Unity framework demonstration failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+2025-01-07 11:23:23,054 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\tempCodeRunnerFile.py", line 6209, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\tempCodeRunnerFile.py", line 5544, in generate_visualizations
+    "love_field": visualizer.visualize_love_field(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\tempCodeRunnerFile.py", line 3729, in visualize_love_field
+    fig.update_layout(
+TypeError: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+
+2025-01-07 11:28:55,376 - INFO - Initiating Unity Framework Demonstration
+2025-01-07 11:28:55,377 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-07 11:28:55,378 - INFO - Framework initialized with dimension 6
+2025-01-07 11:28:55,378 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-07 11:28:55,413 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-07 11:28:56,320 - ERROR - Unity framework demonstration failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+2025-01-07 11:28:56,325 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6211, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5546, in generate_visualizations
+    "love_field": visualizer.visualize_love_field(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3731, in visualize_love_field
+    fig.update_layout(
+TypeError: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+
+2025-01-07 11:29:10,622 - INFO - Initiating Unity Framework Demonstration
+2025-01-07 11:29:10,623 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-07 11:29:10,624 - INFO - Framework initialized with dimension 6
+2025-01-07 11:29:10,624 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-07 11:29:10,657 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-07 11:29:11,308 - ERROR - Unity framework demonstration failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+2025-01-07 11:29:11,311 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6211, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5546, in generate_visualizations
+    "love_field": visualizer.visualize_love_field(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3731, in visualize_love_field
+    fig.update_layout(
+TypeError: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+
+2025-01-07 11:29:29,035 - INFO - Initiating Unity Framework Demonstration
+2025-01-07 11:29:29,036 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-07 11:29:29,037 - INFO - Framework initialized with dimension 6
+2025-01-07 11:29:29,037 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-07 11:29:29,066 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-07 11:29:29,701 - ERROR - Unity framework demonstration failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+2025-01-07 11:29:29,704 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6211, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5546, in generate_visualizations
+    "love_field": visualizer.visualize_love_field(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3731, in visualize_love_field
+    fig.update_layout(
+TypeError: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+
+2025-01-07 11:42:09,929 - INFO - Initiating Unity Framework Demonstration
+2025-01-07 11:42:09,930 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-07 11:42:09,950 - INFO - Framework initialized with dimension 6
+2025-01-07 11:42:09,950 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-07 11:42:09,983 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-07 11:42:11,118 - ERROR - Unity framework demonstration failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+2025-01-07 11:42:11,123 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6211, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5546, in generate_visualizations
+    "love_field": visualizer.visualize_love_field(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3731, in visualize_love_field
+    fig.update_layout(
+TypeError: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'title'
+
+2025-01-07 11:53:31,523 - INFO - Initiating Unity Framework Demonstration
+2025-01-07 11:53:31,524 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-07 11:53:31,526 - INFO - Framework initialized with dimension 6
+2025-01-07 11:53:31,527 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-07 11:53:31,560 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-07 11:53:32,399 - ERROR - Unity framework demonstration failed: 'meta_synthesis'
+2025-01-07 11:53:32,404 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6130, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5466, in compute_final_metrics
+    unified_metric = compute_unified_validation_metric(validation)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5122, in compute_unified_validation_metric
+    'meta_reality': validation_synthesis['meta_reality']['meta_synthesis']['meta_significance'],
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'meta_synthesis'
+
+2025-01-07 11:56:23,821 - ERROR - Unity framework demonstration failed: name 'initialize_framework' is not defined
+2025-01-07 13:50:49,327 - INFO - Initiating Unity Framework Demonstration
+2025-01-07 13:50:49,328 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-07 13:50:49,352 - INFO - Framework initialized with dimension 6
+2025-01-07 13:50:49,352 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-07 13:50:49,388 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-07 13:50:50,493 - ERROR - Unity framework demonstration failed: 'meta_synthesis'
+2025-01-07 13:50:50,497 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6130, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5466, in compute_final_metrics
+    unified_metric = compute_unified_validation_metric(validation)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5122, in compute_unified_validation_metric
+    'meta_reality': validation_synthesis['meta_reality']['meta_synthesis']['meta_significance'],
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'meta_synthesis'
+
+2025-01-08 09:29:37,074 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 09:29:37,075 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 09:29:37,096 - INFO - Framework initialized with dimension 6
+2025-01-08 09:29:37,098 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 09:29:37,130 - ERROR - Quantum dynamics analysis failed: operands could not be broadcast together with remapped shapes [original->remapped]: (2,144)->(144,newaxis,2) (144,2)->(2,144) 
+2025-01-08 09:29:38,255 - ERROR - Unity framework demonstration failed: 'meta_synthesis'
+2025-01-08 09:29:38,258 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6130, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5466, in compute_final_metrics
+    unified_metric = compute_unified_validation_metric(validation)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5122, in compute_unified_validation_metric
+    'meta_reality': validation_synthesis['meta_reality']['meta_synthesis']['meta_significance'],
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'meta_synthesis'
+
+2025-01-08 09:39:19,056 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 09:39:19,057 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 09:39:19,059 - INFO - Framework initialized with dimension 6
+2025-01-08 09:39:19,059 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 09:39:19,737 - ERROR - Unity framework demonstration failed: 'strength'
+2025-01-08 09:39:19,740 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6128, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5464, in compute_final_metrics
+    unified_metric = compute_unified_validation_metric(validation)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5122, in compute_unified_validation_metric
+    'econometric': validation_synthesis['econometric']['causality']['strength'],
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'strength'
+
+2025-01-08 09:43:43,143 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 09:43:43,144 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 09:43:43,145 - INFO - Framework initialized with dimension 6
+2025-01-08 09:43:43,145 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 09:43:43,818 - ERROR - Unity framework demonstration failed: 'bayesian'
+2025-01-08 09:43:43,821 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6137, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5473, in compute_final_metrics
+    unified_metric = compute_unified_validation_metric(validation)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5133, in compute_unified_validation_metric
+    'bayesian': validation_synthesis['bayesian']['posterior_mean'],
+                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'bayesian'
+
+2025-01-08 09:49:26,332 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 09:49:26,332 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 09:49:26,334 - INFO - Framework initialized with dimension 6
+2025-01-08 09:49:26,334 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 09:49:27,049 - ERROR - Unity framework demonstration failed: 'bayesian'
+2025-01-08 09:49:27,052 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6231, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5567, in compute_final_metrics
+    unified_metric = compute_unified_validation_metric(validation)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5225, in compute_unified_validation_metric
+    'bayesian': validation_synthesis['bayesian']['posterior_mean'],
+                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'bayesian'
+
+2025-01-08 09:52:23,134 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 09:52:23,135 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 09:52:23,137 - INFO - Framework initialized with dimension 6
+2025-01-08 09:52:23,137 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 09:52:23,910 - ERROR - Unity framework demonstration failed: 'UnityResult' object has no attribute 'get'
+2025-01-08 09:52:23,914 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6252, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5588, in compute_final_metrics
+    unified_metric = compute_unified_validation_metric(validation)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5246, in compute_unified_validation_metric
+    'love_unity': validation_synthesis.get('love_unity', {}).get('love_coherence', 0.0),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+
+2025-01-08 09:53:18,461 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 09:53:18,462 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 09:53:18,464 - INFO - Framework initialized with dimension 6
+2025-01-08 09:53:18,464 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 09:53:19,321 - ERROR - Unity framework demonstration failed: Object of type complex128 is not JSON serializable
+2025-01-08 09:53:19,354 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6284, in main
+    await save_experimental_results(report, output_dir)
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5362, in save_experimental_results
+    json.dump({
+  File "C:\Program Files\Python311\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type complex128 is not JSON serializable
+
+2025-01-08 09:54:23,165 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 09:54:23,166 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 09:54:23,168 - INFO - Framework initialized with dimension 6
+2025-01-08 09:54:23,168 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 09:54:24,121 - ERROR - Unity framework demonstration failed: Object of type complex128 is not JSON serializable
+2025-01-08 09:54:24,127 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6280, in main
+    await save_experimental_results(report, output_dir)
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5358, in save_experimental_results
+    json.dump({
+  File "C:\Program Files\Python311\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type complex128 is not JSON serializable
+
+2025-01-08 09:56:47,337 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 09:56:47,338 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 09:56:47,340 - INFO - Framework initialized with dimension 6
+2025-01-08 09:56:47,341 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 09:56:48,132 - ERROR - Unity framework demonstration failed: Object of type complex128 is not JSON serializable
+2025-01-08 09:56:48,139 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6323, in main
+    await save_experimental_results(report, output_dir)
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5397, in save_experimental_results
+    json.dump({
+  File "C:\Program Files\Python311\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type complex128 is not JSON serializable
+
+2025-01-08 09:59:13,321 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 09:59:13,324 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 09:59:13,325 - INFO - Framework initialized with dimension 6
+2025-01-08 09:59:13,325 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 09:59:15,540 - INFO - Experimental results saved to unity_experiments\1736326753
+2025-01-08 10:07:42,976 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:07:42,978 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 10:07:42,979 - INFO - Framework initialized with dimension 6
+2025-01-08 10:07:42,979 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:07:43,638 - ERROR - Visualization pipeline failed: 'field'
+2025-01-08 10:07:43,638 - ERROR - Unity framework demonstration failed: 'field'
+2025-01-08 10:07:43,641 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 6418, in main
+    visualization_results = await generate_visualizations(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5707, in generate_visualizations
+    validation['meta_reality']['field']
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'field'
+
+2025-01-08 10:09:42,343 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:09:42,344 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 10:09:42,345 - INFO - Framework initialized with dimension 6
+2025-01-08 10:09:42,346 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:09:42,378 - ERROR - Visualization pipeline failed: 'MetaState' object has no attribute 'get'
+2025-01-08 10:09:42,378 - ERROR - Visualization pipeline failed: 'MetaState' object has no attribute 'get'
+2025-01-08 10:09:42,380 - INFO - Complete results saved to unity_experiments\1736327382
+2025-01-08 10:15:31,831 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:15:31,832 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 10:15:31,834 - INFO - Framework initialized with dimension 6
+2025-01-08 10:15:31,834 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:15:31,868 - WARNING - State norm is near zero; adding epsilon for numerical stability.
+2025-01-08 10:15:31,868 - WARNING - State norm is near zero; adding epsilon for numerical stability.
+2025-01-08 10:15:32,543 - ERROR - Visualization pipeline failed: tuple index out of range
+2025-01-08 10:15:32,544 - WARNING - State norm is near zero; adding epsilon for numerical stability.
+2025-01-08 10:15:32,544 - WARNING - State norm is near zero; adding epsilon for numerical stability.
+2025-01-08 10:15:32,624 - ERROR - Visualization pipeline failed: tuple index out of range
+2025-01-08 10:15:32,626 - INFO - Complete results saved to unity_experiments\1736327731
+2025-01-08 10:16:57,816 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:16:57,817 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 10:16:57,819 - INFO - Framework initialized with dimension 6
+2025-01-08 10:16:57,820 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:16:58,537 - ERROR - Visualization pipeline failed: tuple index out of range
+2025-01-08 10:16:58,669 - ERROR - Visualization pipeline failed: tuple index out of range
+2025-01-08 10:16:58,671 - INFO - Complete results saved to unity_experiments\1736327817
+2025-01-08 10:24:52,584 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:24:52,584 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 10:24:52,586 - INFO - Framework initialized with dimension 6
+2025-01-08 10:24:52,586 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:24:52,620 - INFO - Generating visualizations and artifacts...
+2025-01-08 10:24:52,620 - INFO - Generating quantum state visualization...
+2025-01-08 10:24:53,601 - INFO - Generating coherence evolution...
+2025-01-08 10:24:53,634 - INFO - Generating field visualizations...
+2025-01-08 10:24:53,636 - ERROR - Visualization pipeline failed: tuple index out of range
+2025-01-08 10:24:53,639 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5898, in generate_visualizations
+    visualizations['field_intensity'] = visualizer.visualize_field_intensity(meta_field)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3607, in visualize_field_intensity
+    y = np.linspace(0, 1, field.shape[1])
+                          ~~~~~~~~~~~^^^
+IndexError: tuple index out of range
+
+2025-01-08 10:24:53,639 - WARNING - No visualizations were generated
+2025-01-08 10:24:53,672 - ERROR - Dashboard creation failed: 'UnityVisualizer' object has no attribute '_add_quantum_state_plot'
+2025-01-08 10:24:53,672 - ERROR - Failed to generate dashboard: 'UnityVisualizer' object has no attribute '_add_quantum_state_plot'
+2025-01-08 10:24:53,673 - INFO - Generating quantum state visualization...
+2025-01-08 10:24:53,930 - INFO - Generating coherence evolution...
+2025-01-08 10:24:53,944 - INFO - Generating field visualizations...
+2025-01-08 10:24:53,949 - ERROR - Visualization pipeline failed: tuple index out of range
+2025-01-08 10:24:53,950 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 5898, in generate_visualizations
+    visualizations['field_intensity'] = visualizer.visualize_field_intensity(meta_field)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof.py", line 3607, in visualize_field_intensity
+    y = np.linspace(0, 1, field.shape[1])
+                          ~~~~~~~~~~~^^^
+IndexError: tuple index out of range
+
+2025-01-08 10:24:53,952 - INFO - Complete results saved to unity_experiments\1736328292
+2025-01-08 10:27:22,353 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:27:22,354 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 10:27:22,355 - INFO - Framework initialized with dimension 6
+2025-01-08 10:27:22,355 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:27:22,390 - INFO - Generating visualizations and artifacts...
+2025-01-08 10:27:22,390 - INFO - Generating quantum state visualization...
+2025-01-08 10:27:23,205 - INFO - Generating coherence evolution...
+2025-01-08 10:27:23,257 - INFO - Generating field visualizations...
+2025-01-08 10:27:23,329 - ERROR - Consciousness field visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-08 10:27:23,396 - INFO - Generating unity convergence...
+2025-01-08 10:27:23,442 - INFO - Generating love field...
+2025-01-08 10:27:24,118 - ERROR - Failed to save quantum_state: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:24,191 - ERROR - Failed to save coherence: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:24,262 - ERROR - Failed to save field_intensity: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:24,324 - ERROR - Failed to save consciousness_field: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:24,381 - ERROR - Failed to save unity_convergence: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:24,427 - ERROR - Failed to save love_field: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:24,447 - ERROR - Dashboard generation failed: tuple index out of range
+2025-01-08 10:27:24,466 - ERROR - Failed to generate dashboard: tuple index out of range
+2025-01-08 10:27:24,466 - INFO - Generating quantum state visualization...
+2025-01-08 10:27:24,598 - INFO - Generating coherence evolution...
+2025-01-08 10:27:24,607 - INFO - Generating field visualizations...
+2025-01-08 10:27:24,636 - ERROR - Consciousness field visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-08 10:27:24,643 - INFO - Generating unity convergence...
+2025-01-08 10:27:24,683 - INFO - Generating love field...
+2025-01-08 10:27:24,784 - ERROR - Failed to save quantum_state: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:24,834 - ERROR - Failed to save coherence: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:24,883 - ERROR - Failed to save field_intensity: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:24,931 - ERROR - Failed to save consciousness_field: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:24,989 - ERROR - Failed to save unity_convergence: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:25,064 - ERROR - Failed to save love_field: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:27:25,098 - ERROR - Dashboard generation failed: tuple index out of range
+2025-01-08 10:27:25,100 - INFO - Complete results saved to unity_experiments\1736328442
+2025-01-08 10:28:31,002 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:28:31,003 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 10:28:31,004 - INFO - Framework initialized with dimension 6
+2025-01-08 10:28:31,004 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:28:31,037 - INFO - Generating visualizations and artifacts...
+2025-01-08 10:28:31,037 - INFO - Generating quantum state visualization...
+2025-01-08 10:28:32,134 - INFO - Generating coherence evolution...
+2025-01-08 10:28:32,195 - INFO - Generating field visualizations...
+2025-01-08 10:28:32,270 - ERROR - Consciousness field visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-08 10:28:32,372 - INFO - Generating unity convergence...
+2025-01-08 10:28:32,445 - INFO - Generating love field...
+2025-01-08 10:28:33,096 - ERROR - Failed to save quantum_state: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:33,179 - ERROR - Failed to save coherence: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:33,287 - ERROR - Failed to save field_intensity: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:33,386 - ERROR - Failed to save consciousness_field: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:33,466 - ERROR - Failed to save unity_convergence: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:33,524 - ERROR - Failed to save love_field: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:33,546 - ERROR - Dashboard generation failed: tuple index out of range
+2025-01-08 10:28:33,567 - ERROR - Failed to generate dashboard: tuple index out of range
+2025-01-08 10:28:33,568 - INFO - Generating quantum state visualization...
+2025-01-08 10:28:33,693 - INFO - Generating coherence evolution...
+2025-01-08 10:28:33,703 - INFO - Generating field visualizations...
+2025-01-08 10:28:33,736 - ERROR - Consciousness field visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-08 10:28:33,743 - INFO - Generating unity convergence...
+2025-01-08 10:28:33,792 - INFO - Generating love field...
+2025-01-08 10:28:33,921 - ERROR - Failed to save quantum_state: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:33,979 - ERROR - Failed to save coherence: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:34,038 - ERROR - Failed to save field_intensity: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:34,093 - ERROR - Failed to save consciousness_field: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:34,424 - ERROR - Failed to save unity_convergence: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:34,548 - ERROR - Failed to save love_field: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-01-08 10:28:34,593 - ERROR - Dashboard generation failed: tuple index out of range
+2025-01-08 10:28:34,596 - INFO - Complete results saved to unity_experiments\1736328511
+2025-01-08 10:29:39,497 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:29:39,498 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 10:29:39,500 - INFO - Framework initialized with dimension 6
+2025-01-08 10:29:39,500 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:29:39,532 - INFO - Generating visualizations and artifacts...
+2025-01-08 10:29:39,532 - INFO - Generating quantum state visualization...
+2025-01-08 10:29:41,871 - INFO - Generating coherence evolution...
+2025-01-08 10:29:42,191 - INFO - Generating field visualizations...
+2025-01-08 10:29:42,549 - ERROR - Consciousness field visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-08 10:29:42,769 - INFO - Generating unity convergence...
+2025-01-08 10:29:43,049 - INFO - Generating love field...
+2025-01-08 10:29:43,533 - INFO - Saved quantum_state visualization to unity_experiments\1736328579\visualizations\quantum_state.html
+2025-01-08 10:29:43,584 - INFO - Saved coherence visualization to unity_experiments\1736328579\visualizations\coherence.html
+2025-01-08 10:29:43,649 - INFO - Saved field_intensity visualization to unity_experiments\1736328579\visualizations\field_intensity.html
+2025-01-08 10:29:43,707 - INFO - Saved consciousness_field visualization to unity_experiments\1736328579\visualizations\consciousness_field.html
+2025-01-08 10:29:43,769 - INFO - Saved unity_convergence visualization to unity_experiments\1736328579\visualizations\unity_convergence.html
+2025-01-08 10:29:43,824 - INFO - Saved love_field visualization to unity_experiments\1736328579\visualizations\love_field.html
+2025-01-08 10:29:43,824 - INFO - Generating comprehensive dashboard...
+2025-01-08 10:29:43,858 - ERROR - Dashboard generation failed: tuple index out of range
+2025-01-08 10:29:43,893 - ERROR - Failed to generate dashboard: tuple index out of range
+2025-01-08 10:29:43,894 - INFO - Generating quantum state visualization...
+2025-01-08 10:29:44,529 - INFO - Generating coherence evolution...
+2025-01-08 10:29:44,898 - INFO - Generating field visualizations...
+2025-01-08 10:29:45,279 - ERROR - Consciousness field visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-08 10:29:45,659 - INFO - Generating unity convergence...
+2025-01-08 10:29:46,089 - INFO - Generating love field...
+2025-01-08 10:29:46,518 - INFO - Saved quantum_state visualization to unity_experiments\1736328579\visualizations\quantum_state.html
+2025-01-08 10:29:46,572 - INFO - Saved coherence visualization to unity_experiments\1736328579\visualizations\coherence.html
+2025-01-08 10:29:46,627 - INFO - Saved field_intensity visualization to unity_experiments\1736328579\visualizations\field_intensity.html
+2025-01-08 10:29:46,682 - INFO - Saved consciousness_field visualization to unity_experiments\1736328579\visualizations\consciousness_field.html
+2025-01-08 10:29:46,759 - INFO - Saved unity_convergence visualization to unity_experiments\1736328579\visualizations\unity_convergence.html
+2025-01-08 10:29:46,817 - INFO - Saved love_field visualization to unity_experiments\1736328579\visualizations\love_field.html
+2025-01-08 10:29:46,817 - INFO - Generating comprehensive dashboard...
+2025-01-08 10:29:46,852 - ERROR - Dashboard generation failed: tuple index out of range
+2025-01-08 10:29:46,855 - INFO - Complete results saved to unity_experiments\1736328579
+2025-01-08 10:31:33,719 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:31:33,722 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 10:31:33,723 - INFO - Framework initialized with dimension 6
+2025-01-08 10:31:33,723 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:31:33,751 - INFO - Generating visualizations and artifacts...
+2025-01-08 10:31:33,751 - INFO - Generating quantum state visualization...
+2025-01-08 10:31:35,669 - INFO - Generating coherence evolution...
+2025-01-08 10:31:35,942 - INFO - Generating field visualizations...
+2025-01-08 10:31:36,231 - ERROR - Field visualization failed: 'UnityVisualizer' object has no attribute 'visualize_consciousness_field'
+2025-01-08 10:31:36,231 - INFO - Generating unity convergence...
+2025-01-08 10:31:36,232 - ERROR - Unity convergence visualization failed: 'UnityVisualizer' object has no attribute 'visualize_unity_convergence'
+2025-01-08 10:31:36,232 - INFO - Generating love field...
+2025-01-08 10:31:36,233 - ERROR - Love field visualization failed: 'UnityVisualizer' object has no attribute 'visualize_love_field'
+2025-01-08 10:31:36,290 - INFO - Saved quantum_state visualization to unity_experiments\1736328693\visualizations\quantum_state.html
+2025-01-08 10:31:36,320 - INFO - Saved coherence visualization to unity_experiments\1736328693\visualizations\coherence.html
+2025-01-08 10:31:36,349 - INFO - Saved field_intensity visualization to unity_experiments\1736328693\visualizations\field_intensity.html
+2025-01-08 10:31:36,350 - INFO - Generating comprehensive dashboard...
+2025-01-08 10:31:36,350 - ERROR - Dashboard generation failed: 'UnityVisualizer' object has no attribute 'create_dashboard'
+2025-01-08 10:31:36,350 - ERROR - Failed to generate dashboard: 'UnityVisualizer' object has no attribute 'create_dashboard'
+2025-01-08 10:31:36,350 - INFO - Generating quantum state visualization...
+2025-01-08 10:31:36,726 - INFO - Generating coherence evolution...
+2025-01-08 10:31:36,992 - INFO - Generating field visualizations...
+2025-01-08 10:31:37,250 - ERROR - Field visualization failed: 'UnityVisualizer' object has no attribute 'visualize_consciousness_field'
+2025-01-08 10:31:37,250 - INFO - Generating unity convergence...
+2025-01-08 10:31:37,251 - ERROR - Unity convergence visualization failed: 'UnityVisualizer' object has no attribute 'visualize_unity_convergence'
+2025-01-08 10:31:37,251 - INFO - Generating love field...
+2025-01-08 10:31:37,251 - ERROR - Love field visualization failed: 'UnityVisualizer' object has no attribute 'visualize_love_field'
+2025-01-08 10:31:37,308 - INFO - Saved quantum_state visualization to unity_experiments\1736328693\visualizations\quantum_state.html
+2025-01-08 10:31:37,353 - INFO - Saved coherence visualization to unity_experiments\1736328693\visualizations\coherence.html
+2025-01-08 10:31:37,392 - INFO - Saved field_intensity visualization to unity_experiments\1736328693\visualizations\field_intensity.html
+2025-01-08 10:31:37,392 - INFO - Generating comprehensive dashboard...
+2025-01-08 10:31:37,392 - ERROR - Dashboard generation failed: 'UnityVisualizer' object has no attribute 'create_dashboard'
+2025-01-08 10:31:37,394 - INFO - Complete results saved to unity_experiments\1736328693
+2025-01-08 10:32:20,554 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:32:20,555 - INFO - Initializing framework with φ-optimal dimension: 6
+2025-01-08 10:32:20,556 - INFO - Framework initialized with dimension 6
+2025-01-08 10:32:20,556 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:32:20,589 - INFO - Generating visualizations and artifacts...
+2025-01-08 10:32:20,589 - INFO - Generating quantum state visualization...
+2025-01-08 10:32:22,711 - INFO - Generating coherence evolution...
+2025-01-08 10:32:22,972 - INFO - Generating field visualizations...
+2025-01-08 10:32:23,437 - INFO - Generating unity convergence...
+2025-01-08 10:32:23,789 - INFO - Generating love field...
+2025-01-08 10:32:23,837 - ERROR - Love field visualization failed: 'UnityVisualizer' object has no attribute '_compute_resonance_points'
+2025-01-08 10:32:23,837 - ERROR - Love field visualization failed: 'UnityVisualizer' object has no attribute '_generate_fallback_figure'
+2025-01-08 10:32:23,891 - INFO - Saved quantum_state visualization to unity_experiments\1736328740\visualizations\quantum_state.html
+2025-01-08 10:32:23,926 - INFO - Saved coherence visualization to unity_experiments\1736328740\visualizations\coherence.html
+2025-01-08 10:32:23,966 - INFO - Saved field_intensity visualization to unity_experiments\1736328740\visualizations\field_intensity.html
+2025-01-08 10:32:23,999 - INFO - Saved consciousness_field visualization to unity_experiments\1736328740\visualizations\consciousness_field.html
+2025-01-08 10:32:24,039 - INFO - Saved unity_convergence visualization to unity_experiments\1736328740\visualizations\unity_convergence.html
+2025-01-08 10:32:24,040 - INFO - Generating comprehensive dashboard...
+2025-01-08 10:32:24,040 - ERROR - Dashboard generation failed: 'UnityVisualizer' object has no attribute 'create_dashboard'
+2025-01-08 10:32:24,040 - ERROR - Failed to generate dashboard: 'UnityVisualizer' object has no attribute 'create_dashboard'
+2025-01-08 10:32:24,041 - INFO - Generating quantum state visualization...
+2025-01-08 10:32:24,542 - INFO - Generating coherence evolution...
+2025-01-08 10:32:24,825 - INFO - Generating field visualizations...
+2025-01-08 10:32:25,378 - INFO - Generating unity convergence...
+2025-01-08 10:32:25,730 - INFO - Generating love field...
+2025-01-08 10:32:25,762 - ERROR - Love field visualization failed: 'UnityVisualizer' object has no attribute '_compute_resonance_points'
+2025-01-08 10:32:25,764 - ERROR - Love field visualization failed: 'UnityVisualizer' object has no attribute '_generate_fallback_figure'
+2025-01-08 10:32:25,844 - INFO - Saved quantum_state visualization to unity_experiments\1736328740\visualizations\quantum_state.html
+2025-01-08 10:32:25,885 - INFO - Saved coherence visualization to unity_experiments\1736328740\visualizations\coherence.html
+2025-01-08 10:32:25,928 - INFO - Saved field_intensity visualization to unity_experiments\1736328740\visualizations\field_intensity.html
+2025-01-08 10:32:25,970 - INFO - Saved consciousness_field visualization to unity_experiments\1736328740\visualizations\consciousness_field.html
+2025-01-08 10:32:26,018 - INFO - Saved unity_convergence visualization to unity_experiments\1736328740\visualizations\unity_convergence.html
+2025-01-08 10:32:26,018 - INFO - Generating comprehensive dashboard...
+2025-01-08 10:32:26,018 - ERROR - Dashboard generation failed: 'UnityVisualizer' object has no attribute 'create_dashboard'
+2025-01-08 10:32:26,020 - INFO - Complete results saved to unity_experiments\1736328740
+2025-01-08 10:37:39,773 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:37:41,892 - INFO - Framework initialized with dimension 6
+2025-01-08 10:37:41,892 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:37:49,310 - ERROR - Love field visualization failed: 'UnityVisualizer' object has no attribute '_compute_resonance_points'
+2025-01-08 10:37:49,311 - ERROR - Visualization generation failed: 'UnityVisualizer' object has no attribute '_generate_fallback_figure'
+2025-01-08 10:37:51,328 - ERROR - Love field visualization failed: 'UnityVisualizer' object has no attribute '_compute_resonance_points'
+2025-01-08 10:37:51,329 - ERROR - Visualization generation failed: 'UnityVisualizer' object has no attribute '_generate_fallback_figure'
+2025-01-08 10:37:51,329 - INFO - Complete results saved to unity_experiments\1736329061
+2025-01-08 10:38:57,492 - INFO - Initiating Unity Framework Demonstration
+2025-01-08 10:38:59,604 - INFO - Framework initialized with dimension 6
+2025-01-08 10:38:59,604 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-08 10:39:07,456 - INFO - Saved quantum_state visualization
+2025-01-08 10:39:07,479 - INFO - Saved coherence visualization
+2025-01-08 10:39:07,503 - INFO - Saved field_intensity visualization
+2025-01-08 10:39:07,526 - INFO - Saved consciousness_field visualization
+2025-01-08 10:39:07,554 - INFO - Saved unity_convergence visualization
+2025-01-08 10:39:07,578 - INFO - Saved love_field visualization
+2025-01-08 10:39:07,578 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
+2025-01-08 10:39:07,609 - INFO - Generated unified dashboard
+2025-01-08 10:39:09,671 - INFO - Saved quantum_state visualization
+2025-01-08 10:39:09,695 - INFO - Saved coherence visualization
+2025-01-08 10:39:09,718 - INFO - Saved field_intensity visualization
+2025-01-08 10:39:09,741 - INFO - Saved consciousness_field visualization
+2025-01-08 10:39:09,770 - INFO - Saved unity_convergence visualization
+2025-01-08 10:39:09,793 - INFO - Saved love_field visualization
+2025-01-08 10:39:09,793 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
+2025-01-08 10:39:09,821 - INFO - Generated unified dashboard
+2025-01-08 10:39:09,824 - INFO - Complete results saved to unity_experiments\1736329139
