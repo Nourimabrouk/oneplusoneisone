@@ -2129,3 +2129,776 @@ which can be installed using pip:
 2025-01-08 14:02:33,822 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
 2025-01-08 14:02:33,862 - INFO - Generated unified dashboard
 2025-01-08 14:02:33,864 - INFO - Complete results saved to unity_experiments\1736341342
+2025-01-10 22:15:59,500 - INFO - Initiating Unity Framework Demonstration
+2025-01-10 22:16:01,660 - INFO - Framework initialized with dimension 6
+2025-01-10 22:16:01,660 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-10 22:16:09,387 - ERROR - Visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-10 22:16:10,041 - INFO - Saved quantum_state visualization
+2025-01-10 22:16:11,040 - INFO - Saved coherence visualization
+2025-01-10 22:16:11,074 - INFO - Saved field_intensity visualization
+2025-01-10 22:16:11,107 - INFO - Saved consciousness_field visualization
+2025-01-10 22:16:11,153 - INFO - Saved unity_convergence visualization
+2025-01-10 22:16:11,208 - INFO - Saved love_field visualization
+2025-01-10 22:16:11,209 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
+2025-01-10 22:16:11,269 - INFO - Generated unified dashboard
+2025-01-10 22:16:13,099 - ERROR - Visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-10 22:16:13,311 - INFO - Saved quantum_state visualization
+2025-01-10 22:16:13,343 - INFO - Saved coherence visualization
+2025-01-10 22:16:13,372 - INFO - Saved field_intensity visualization
+2025-01-10 22:16:13,402 - INFO - Saved consciousness_field visualization
+2025-01-10 22:16:13,436 - INFO - Saved unity_convergence visualization
+2025-01-10 22:16:13,467 - INFO - Saved love_field visualization
+2025-01-10 22:16:13,467 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
+2025-01-10 22:16:13,503 - INFO - Generated unified dashboard
+2025-01-10 22:16:13,505 - INFO - Complete results saved to unity_experiments\1736543761
+2025-01-10 22:27:08,935 - INFO - Initiating Unity Framework Demonstration
+2025-01-10 22:27:11,043 - INFO - Framework initialized with dimension 6
+2025-01-10 22:27:11,044 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-10 22:27:18,616 - ERROR - Visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-10 22:27:18,618 - ERROR - Visualization generation failed: 'text_color'
+2025-01-10 22:27:20,460 - ERROR - Visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-10 22:27:20,467 - ERROR - Visualization generation failed: 'text_color'
+2025-01-10 22:27:20,470 - INFO - Complete results saved to unity_experiments\1736544430
+2025-01-10 22:30:22,782 - INFO - Initiating Unity Framework Demonstration
+2025-01-10 22:30:24,922 - INFO - Framework initialized with dimension 6
+2025-01-10 22:30:24,922 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-10 22:30:32,172 - ERROR - Visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-10 22:30:32,174 - ERROR - Visualization generation failed: 'text_color'
+2025-01-10 22:30:33,993 - ERROR - Visualization failed: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+2025-01-10 22:30:33,995 - ERROR - Visualization generation failed: 'text_color'
+2025-01-10 22:30:33,998 - INFO - Complete results saved to unity_experiments\1736544624
+2025-01-10 22:34:32,739 - INFO - Initiating Unity Framework Demonstration
+2025-01-10 22:34:34,855 - INFO - Framework initialized with dimension 6
+2025-01-10 22:34:34,855 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-10 22:34:42,327 - ERROR - Visualization failed: 'UnityVisualizer' object has no attribute 'layout_template'
+2025-01-10 22:34:43,450 - ERROR - Coherence visualization failed: 'UnityVisualizer' object has no attribute 'layout_template'
+2025-01-10 22:34:43,451 - ERROR - Visualization generation failed: 'UnityVisualizer' object has no attribute 'layout_template'
+2025-01-10 22:34:45,282 - ERROR - Visualization failed: 'UnityVisualizer' object has no attribute 'layout_template'
+2025-01-10 22:34:45,306 - ERROR - Coherence visualization failed: 'UnityVisualizer' object has no attribute 'layout_template'
+2025-01-10 22:34:45,306 - ERROR - Visualization generation failed: 'UnityVisualizer' object has no attribute 'layout_template'
+2025-01-10 22:34:45,309 - INFO - Complete results saved to unity_experiments\1736544874
+2025-01-10 22:37:03,057 - INFO - Initiating Unity Framework Demonstration
+2025-01-10 22:37:05,189 - INFO - Framework initialized with dimension 6
+2025-01-10 22:37:05,189 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-10 22:37:12,554 - ERROR - Visualization failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'showlegend'
+2025-01-10 22:37:13,147 - ERROR - Consciousness field visualization failed: Unsupported subplot type: 'streamline'
+2025-01-10 22:37:13,393 - INFO - Saved quantum_state visualization
+2025-01-10 22:37:14,171 - INFO - Saved coherence visualization
+2025-01-10 22:37:14,216 - INFO - Saved field_intensity visualization
+2025-01-10 22:37:14,256 - INFO - Saved consciousness_field visualization
+2025-01-10 22:37:14,304 - INFO - Saved unity_convergence visualization
+2025-01-10 22:37:14,342 - INFO - Saved love_field visualization
+2025-01-10 22:37:14,343 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
+2025-01-10 22:37:14,412 - INFO - Generated unified dashboard
+2025-01-10 22:37:16,244 - ERROR - Visualization failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'showlegend'
+2025-01-10 22:37:16,294 - ERROR - Consciousness field visualization failed: Unsupported subplot type: 'streamline'
+2025-01-10 22:37:16,497 - INFO - Saved quantum_state visualization
+2025-01-10 22:37:16,536 - INFO - Saved coherence visualization
+2025-01-10 22:37:16,575 - INFO - Saved field_intensity visualization
+2025-01-10 22:37:16,612 - INFO - Saved consciousness_field visualization
+2025-01-10 22:37:16,655 - INFO - Saved unity_convergence visualization
+2025-01-10 22:37:16,688 - INFO - Saved love_field visualization
+2025-01-10 22:37:16,688 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
+2025-01-10 22:37:16,765 - INFO - Generated unified dashboard
+2025-01-10 22:37:16,767 - INFO - Complete results saved to unity_experiments\1736545024
+2025-01-10 22:47:54,007 - INFO - Initiating Unity Framework Demonstration
+2025-01-10 22:47:56,122 - INFO - Framework initialized with dimension 6
+2025-01-10 22:47:56,122 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-10 22:48:02,606 - ERROR - Visualization pipeline failed: 'ThreadPoolExecutor' object does not support the asynchronous context manager protocol
+2025-01-10 22:48:04,422 - ERROR - Visualization pipeline failed: 'ThreadPoolExecutor' object does not support the asynchronous context manager protocol
+2025-01-10 22:48:04,424 - INFO - Complete results saved to unity_experiments\1736545675
+2025-01-10 22:48:05,430 - ERROR - Critical Framework Error: ValidationReport.__init__() missing 4 required positional arguments: 'visualization_results', 'validation_synthesis', 'timestamp', and 'metadata'
+2025-01-10 22:48:05,432 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8079, in main
+    report = ValidationReport(...)
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: ValidationReport.__init__() missing 4 required positional arguments: 'visualization_results', 'validation_synthesis', 'timestamp', and 'metadata'
+
+2025-01-11 08:56:56,919 - INFO - Initiating Unity Framework Demonstration
+2025-01-11 08:56:59,069 - INFO - Framework initialized with dimension 6
+2025-01-11 08:56:59,070 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 08:57:05,591 - ERROR - Visualization pipeline failed: 'ThreadPoolExecutor' object does not support the asynchronous context manager protocol
+2025-01-11 08:57:07,408 - ERROR - Visualization pipeline failed: 'ThreadPoolExecutor' object does not support the asynchronous context manager protocol
+2025-01-11 08:57:07,410 - INFO - Complete results saved to unity_experiments\1736582218
+2025-01-11 08:57:08,418 - ERROR - Critical Framework Error: ValidationReport.__init__() missing 4 required positional arguments: 'visualization_results', 'validation_synthesis', 'timestamp', and 'metadata'
+2025-01-11 08:57:08,419 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8079, in main
+    report = ValidationReport(...)
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: ValidationReport.__init__() missing 4 required positional arguments: 'visualization_results', 'validation_synthesis', 'timestamp', and 'metadata'
+
+2025-01-11 09:12:36,035 - INFO - Initiating Unity Framework Demonstration
+2025-01-11 09:12:38,160 - INFO - Framework initialized with dimension 6
+2025-01-11 09:12:38,160 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 09:12:44,674 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-11 09:12:45,849 - ERROR - Quantum state visualization failed: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 1 is different from 100)
+2025-01-11 09:12:46,595 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-11 09:12:46,632 - ERROR - Visualization love_field failed: 'resonance_matrix'
+2025-01-11 09:12:46,777 - ERROR - Critical visualization pipeline failure: Unsupported subplot type: 'graph'
+2025-01-11 09:12:47,607 - ERROR - Critical Framework Error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-01-11 09:12:47,607 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8090, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 7398, in compute_final_metrics
+    quantum_coherence=min(0.99, np.abs(validation['quantum_ensemble'].get('coherence', 0.8))),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+2025-01-11 09:26:48,996 - INFO - Initiating Unity Framework Demonstration
+2025-01-11 09:26:51,117 - INFO - Framework initialized with dimension 6
+2025-01-11 09:26:51,117 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 09:26:54,378 - ERROR - Quantum econometrics analysis failed: 'UnityEconometrics' object has no attribute '_initialize_unified_framework'
+2025-01-11 09:26:57,626 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-11 09:26:58,518 - ERROR - Quantum state visualization failed: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 1 is different from 100)
+2025-01-11 09:26:58,956 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-11 09:26:58,994 - ERROR - Visualization love_field failed: 'resonance_matrix'
+2025-01-11 09:26:59,184 - ERROR - Critical visualization pipeline failure: Unsupported subplot type: 'graph'
+2025-01-11 09:27:01,017 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-11 09:27:01,043 - ERROR - Quantum state visualization failed: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 1 is different from 100)
+2025-01-11 09:27:01,116 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-11 09:27:01,141 - ERROR - Visualization love_field failed: 'resonance_matrix'
+2025-01-11 09:27:01,166 - ERROR - Critical visualization pipeline failure: Unsupported subplot type: 'graph'
+2025-01-11 09:27:01,170 - ERROR - Failed to save complete results: Object of type bool_ is not JSON serializable
+2025-01-11 09:27:01,170 - ERROR - Critical framework error: Object of type bool_ is not JSON serializable
+2025-01-11 09:37:09,627 - ERROR - Critical framework error: name 'ProgressMonitor' is not defined
+2025-01-11 10:00:31,919 - ERROR - Critical framework error: VisualizationConfig.__init__() got an unexpected keyword argument 'dimensions'
+2025-01-11 10:06:46,236 - INFO - Framework initialized with dimension 6
+2025-01-11 10:06:46,237 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 10:06:46,237 - ERROR - Critical framework error: execute_quantum_evolution() got an unexpected keyword argument 'step_index'
+2025-01-11 10:12:10,209 - INFO - Framework initialized with dimension 6
+2025-01-11 10:12:10,209 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 10:12:10,209 - ERROR - Critical framework error: execute_quantum_evolution() got an unexpected keyword argument 'consciousness_coupling'
+2025-01-11 10:14:40,630 - INFO - Framework initialized with dimension 6
+2025-01-11 10:14:40,630 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 10:14:47,263 - ERROR - Critical framework error: synthesize_meta_reality() got an unexpected keyword argument 'axioms'
+2025-01-11 10:20:10,577 - INFO - Framework initialized with dimension 6
+2025-01-11 10:20:10,577 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 10:20:14,739 - ERROR - Critical framework error: analyze_quantum_econometrics() got an unexpected keyword argument 'field_metrics'
+2025-01-11 10:23:27,472 - INFO - Framework initialized with dimension 6
+2025-01-11 10:23:27,472 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 10:23:31,532 - ERROR - Critical framework error: analyze_quantum_econometrics() got an unexpected keyword argument 'field_metrics'
+2025-01-11 10:50:56,385 - INFO - Starting Quantum Unity Framework...
+2025-01-11 10:50:56,387 - INFO - Framework initialized with dimension 6
+2025-01-11 10:50:56,387 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 10:50:59,980 - INFO - Quantum Evolution Protocol completed.
+2025-01-11 10:51:00,114 - ERROR - Critical framework error: 'strength'
+2025-01-11 11:01:49,030 - INFO - Starting Quantum Unity Framework...
+2025-01-11 11:01:49,032 - INFO - Framework initialized with dimension 6
+2025-01-11 11:01:49,033 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 11:01:53,144 - INFO - Quantum Evolution Protocol completed.
+2025-01-11 11:01:53,317 - INFO - Initiating enhanced econometric analysis...
+2025-01-11 11:01:53,318 - INFO - Lagged matrix created with shape: (144, 10)
+2025-01-11 11:01:53,319 - INFO - Standardization applied to lagged matrix.
+2025-01-11 11:01:53,336 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-11 11:01:53,340 - INFO - Dominant eigenvalues extracted: [1.35425256e+02 1.96400594e-14 1.64780697e-29]
+2025-01-11 11:01:53,375 - ERROR - Quantum econometrics analysis failed: x contains one or more constant columns. Column(s) 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 are constant. Adding a constant with trend='c' is not allowed.
+2025-01-11 11:01:53,380 - ERROR - Critical framework error: unify_theory() got an unexpected keyword argument 'theorem_result'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9337, in main
+    unification_results = await unify_theory(
+                                ^^^^^^^^^^^^^
+TypeError: unify_theory() got an unexpected keyword argument 'theorem_result'
+2025-01-11 11:06:52,729 - INFO - Starting Quantum Unity Framework...
+2025-01-11 11:06:52,733 - INFO - Framework initialized with dimension 6
+2025-01-11 11:06:52,733 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 11:06:56,327 - INFO - Quantum Evolution Protocol completed.
+2025-01-11 11:06:56,518 - INFO - Initiating enhanced econometric analysis...
+2025-01-11 11:06:56,521 - WARNING - Dropping constant columns: [0 1 2 3 4 5 6 7 8 9]
+2025-01-11 11:06:56,521 - INFO - Lagged matrix created with shape: (144, 0)
+2025-01-11 11:06:56,522 - INFO - Standardization applied to lagged matrix.
+2025-01-11 11:06:56,522 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-11 11:06:56,523 - INFO - Dominant eigenvalues extracted: [0. 0. 0.]
+2025-01-11 11:06:56,527 - ERROR - Quantum econometrics analysis failed: x contains one or more constant columns. Column(s) 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 are constant. Adding a constant with trend='c' is not allowed.
+2025-01-11 11:06:56,532 - ERROR - Critical framework error: unify_theory() got an unexpected keyword argument 'theorem_result'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9441, in main
+    unification_results = await unify_theory(
+                                ^^^^^^^^^^^^^
+TypeError: unify_theory() got an unexpected keyword argument 'theorem_result'
+2025-01-11 11:14:57,172 - INFO - Starting Quantum Unity Framework...
+2025-01-11 11:14:57,174 - ERROR - Critical framework error: execute_advanced_quantum_evolution() missing 2 required positional arguments: 'progress_monitor' and 'experiment_logger'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9365, in main
+    quantum_evolution_results = await execute_advanced_quantum_evolution(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: execute_advanced_quantum_evolution() missing 2 required positional arguments: 'progress_monitor' and 'experiment_logger'
+2025-01-11 11:16:02,468 - INFO - Starting Quantum Unity Framework...
+2025-01-11 11:16:07,109 - INFO - Quantum Evolution Protocol completed.
+2025-01-11 11:16:07,280 - INFO - Initiating enhanced econometric analysis...
+2025-01-11 11:16:07,281 - WARNING - Dropping constant columns: [0 1 2 3 4 5 6 7 8 9]
+2025-01-11 11:16:07,281 - INFO - Lagged matrix created with shape: (144, 0)
+2025-01-11 11:16:07,282 - INFO - Standardization applied to lagged matrix.
+2025-01-11 11:16:07,282 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-11 11:16:07,283 - INFO - Dominant eigenvalues extracted: [0. 0. 0.]
+2025-01-11 11:16:07,286 - ERROR - Quantum econometrics analysis failed: x contains one or more constant columns. Column(s) 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 are constant. Adding a constant with trend='c' is not allowed.
+2025-01-11 11:16:07,289 - ERROR - Critical framework error: synthesize_validation() got an unexpected keyword argument 'axioms'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9428, in main
+    validation_synthesis = await synthesize_validation(
+                                 ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: synthesize_validation() got an unexpected keyword argument 'axioms'
+2025-01-11 11:24:40,552 - INFO - Starting Quantum Unity Framework...
+2025-01-11 11:24:43,937 - INFO - Quantum Evolution Protocol completed.
+2025-01-11 11:24:44,113 - INFO - Initiating enhanced econometric analysis...
+2025-01-11 11:24:44,114 - WARNING - Dropping constant columns: [0 1 2 3 4 5 6 7 8 9]
+2025-01-11 11:24:44,114 - INFO - Lagged matrix created with shape: (144, 0)
+2025-01-11 11:24:44,114 - INFO - Standardization applied to lagged matrix.
+2025-01-11 11:24:44,115 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-11 11:24:44,115 - INFO - Dominant eigenvalues extracted: [0. 0. 0.]
+2025-01-11 11:24:44,118 - ERROR - Quantum econometrics analysis failed: x contains one or more constant columns. Column(s) 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 are constant. Adding a constant with trend='c' is not allowed.
+2025-01-11 11:24:44,121 - ERROR - Critical framework error: synthesize_validation() got an unexpected keyword argument 'theorem'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9431, in main
+    validation_synthesis = await synthesize_validation(
+                                 ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: synthesize_validation() got an unexpected keyword argument 'theorem'
+2025-01-11 11:32:09,898 - INFO - Starting Quantum Unity Framework...
+2025-01-11 11:32:13,407 - INFO - Quantum Evolution Protocol completed.
+2025-01-11 11:32:13,505 - INFO - Initiating enhanced econometric analysis...
+2025-01-11 11:32:13,506 - WARNING - Dropping constant columns: [0 1 2 3 4 5 6 7 8 9]
+2025-01-11 11:32:13,506 - INFO - Lagged matrix created with shape: (144, 0)
+2025-01-11 11:32:13,506 - INFO - Standardization applied to lagged matrix.
+2025-01-11 11:32:13,506 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-11 11:32:13,507 - INFO - Dominant eigenvalues extracted: [0. 0. 0.]
+2025-01-11 11:32:13,509 - ERROR - Quantum econometrics analysis failed: x contains one or more constant columns. Column(s) 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 are constant. Adding a constant with trend='c' is not allowed.
+2025-01-11 11:32:13,512 - ERROR - Critical framework error: synthesize_validation() got an unexpected keyword argument 'theorem'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9453, in main
+    validation_synthesis = await synthesize_validation(
+                                 ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: synthesize_validation() got an unexpected keyword argument 'theorem'
+2025-01-11 11:35:40,125 - INFO - Starting Quantum Unity Framework...
+2025-01-11 11:35:43,519 - INFO - Quantum Evolution Protocol completed.
+2025-01-11 11:35:43,619 - INFO - Initiating enhanced econometric analysis...
+2025-01-11 11:35:43,620 - WARNING - Dropping constant columns: [0 1 2 3 4 5 6 7 8 9]
+2025-01-11 11:35:43,620 - INFO - Lagged matrix created with shape: (144, 0)
+2025-01-11 11:35:43,620 - INFO - Standardization applied to lagged matrix.
+2025-01-11 11:35:43,620 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-11 11:35:43,621 - INFO - Dominant eigenvalues extracted: [0. 0. 0.]
+2025-01-11 11:35:43,623 - ERROR - Quantum econometrics analysis failed: x contains one or more constant columns. Column(s) 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 are constant. Adding a constant with trend='c' is not allowed.
+2025-01-11 11:35:43,626 - ERROR - Critical framework error: UnityVisualizer.__init__() got an unexpected keyword argument 'config'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9449, in main
+    visualizer = UnityVisualizer(config=visualization_config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UnityVisualizer.__init__() got an unexpected keyword argument 'config'
+2025-01-11 11:52:52,969 - INFO - Starting Quantum Unity Framework...
+2025-01-11 11:52:56,362 - INFO - Quantum Evolution Protocol completed.
+2025-01-11 11:52:56,528 - INFO - Initiating enhanced econometric analysis...
+2025-01-11 11:52:56,529 - WARNING - Dropping constant columns: [0 1 2 3 4 5 6 7 8 9]
+2025-01-11 11:52:56,529 - INFO - Lagged matrix created with shape: (144, 0)
+2025-01-11 11:52:56,529 - WARNING - No variability detected. Adding synthetic perturbations.
+2025-01-11 11:52:56,529 - ERROR - Quantum econometrics analysis failed: cannot access local variable 'data' where it is not associated with a value
+2025-01-11 11:52:56,533 - ERROR - Critical framework error: generate_visualizations() got an unexpected keyword argument 'validation_synthesis'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\tempCodeRunnerFile.py", line 9521, in main
+    visualization_results = await generate_visualizations(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: generate_visualizations() got an unexpected keyword argument 'validation_synthesis'
+2025-01-11 11:52:56,535 - INFO - Results saved to unity_experiments\1736592772
+2025-01-11 12:06:28,571 - INFO - Initiating Unity Framework Demonstration
+2025-01-11 12:06:30,682 - INFO - Framework initialized with dimension 6
+2025-01-11 12:06:30,682 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 12:06:39,422 - INFO - Saved quantum_state visualization
+2025-01-11 12:06:39,447 - INFO - Saved coherence visualization
+2025-01-11 12:06:39,472 - INFO - Saved field_intensity visualization
+2025-01-11 12:06:39,496 - INFO - Saved consciousness_field visualization
+2025-01-11 12:06:39,524 - INFO - Saved unity_convergence visualization
+2025-01-11 12:06:39,549 - INFO - Saved love_field visualization
+2025-01-11 12:06:39,549 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
+2025-01-11 12:06:39,581 - INFO - Generated unified dashboard
+2025-01-11 12:06:41,677 - INFO - Saved quantum_state visualization
+2025-01-11 12:06:41,701 - INFO - Saved coherence visualization
+2025-01-11 12:06:41,725 - INFO - Saved field_intensity visualization
+2025-01-11 12:06:41,749 - INFO - Saved consciousness_field visualization
+2025-01-11 12:06:41,776 - INFO - Saved unity_convergence visualization
+2025-01-11 12:06:41,803 - INFO - Saved love_field visualization
+2025-01-11 12:06:41,804 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
+2025-01-11 12:06:41,843 - INFO - Generated unified dashboard
+2025-01-11 12:06:41,845 - INFO - Complete results saved to unity_experiments\1736593590
+2025-01-11 21:56:55,155 - INFO - Initiating Unity Framework Demonstration
+2025-01-11 21:56:57,309 - INFO - Framework initialized with dimension 6
+2025-01-11 21:56:57,309 - INFO - Components initialized: quantum_evolution, consciousness_field, love_field, initialized, initial_state
+2025-01-11 21:57:06,913 - INFO - Saved quantum_state visualization
+2025-01-11 21:57:06,944 - INFO - Saved coherence visualization
+2025-01-11 21:57:06,972 - INFO - Saved field_intensity visualization
+2025-01-11 21:57:06,998 - INFO - Saved consciousness_field visualization
+2025-01-11 21:57:07,025 - INFO - Saved unity_convergence visualization
+2025-01-11 21:57:07,049 - INFO - Saved love_field visualization
+2025-01-11 21:57:07,050 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
+2025-01-11 21:57:07,080 - INFO - Generated unified dashboard
+2025-01-11 21:57:09,156 - INFO - Saved quantum_state visualization
+2025-01-11 21:57:09,180 - INFO - Saved coherence visualization
+2025-01-11 21:57:09,204 - INFO - Saved field_intensity visualization
+2025-01-11 21:57:09,229 - INFO - Saved consciousness_field visualization
+2025-01-11 21:57:09,262 - INFO - Saved unity_convergence visualization
+2025-01-11 21:57:09,288 - INFO - Saved love_field visualization
+2025-01-11 21:57:09,288 - ERROR - Dashboard generation failed: Unsupported subplot type: 'any'
+2025-01-11 21:57:09,317 - INFO - Generated unified dashboard
+2025-01-11 21:57:09,319 - INFO - Complete results saved to unity_experiments\1736629016
+2025-01-14 15:26:43,979 - INFO - Starting Quantum Unity Framework...
+2025-01-14 15:26:48,316 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 15:26:48,477 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 15:26:48,480 - WARNING - Dropping constant columns: [0 1 2 3 4 5 6 7 8 9]
+2025-01-14 15:26:48,480 - INFO - Lagged matrix created with shape: (144, 0)
+2025-01-14 15:26:48,480 - WARNING - No variability detected. Adding synthetic perturbations.
+2025-01-14 15:26:48,480 - ERROR - Quantum econometrics analysis failed: cannot access local variable 'data' where it is not associated with a value
+2025-01-14 15:26:48,488 - ERROR - Critical framework error: generate_visualizations() got an unexpected keyword argument 'validation_synthesis'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\tempCodeRunnerFile.py", line 9521, in main
+    visualization_results = await generate_visualizations(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: generate_visualizations() got an unexpected keyword argument 'validation_synthesis'
+2025-01-14 15:26:48,491 - INFO - Results saved to unity_experiments\1736864803
+2025-01-14 15:51:34,589 - INFO - Starting Quantum Unity Framework...
+2025-01-14 15:51:39,095 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 15:51:39,225 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 15:51:39,225 - INFO - Lagged matrix created with shape: (144, 10)
+2025-01-14 15:51:39,226 - INFO - Standardization applied to lagged matrix.
+2025-01-14 15:51:39,252 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-14 15:51:39,256 - INFO - Dominant eigenvalues extracted: [46.20580966 41.66520825 40.89896892]
+2025-01-14 15:51:39,306 - INFO - Granger causality analysis completed.
+2025-01-14 15:51:39,439 - INFO - ARIMA prediction generated for the next 10 steps.
+2025-01-14 15:51:39,439 - ERROR - Quantum econometrics analysis failed: 'dict' object has no attribute 'dimensions'
+2025-01-14 15:51:39,449 - ERROR - Visualization quantum_state failed: name 'validation' is not defined
+2025-01-14 15:51:41,452 - ERROR - Visualization entanglement failed: name 'validation' is not defined
+2025-01-14 15:51:41,478 - ERROR - Visualization consciousness failed: name 'validation' is not defined
+2025-01-14 15:51:41,504 - ERROR - Visualization love_field failed: name 'validation' is not defined
+2025-01-14 15:51:41,528 - ERROR - Critical visualization pipeline failure: Unsupported subplot type: 'graph'
+2025-01-14 15:51:41,561 - ERROR - Error computing final metrics: 'UnityResult' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8354, in compute_final_metrics
+    love_coherence = validation.get('love_unity', {}).get('love_coherence', 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+2025-01-14 15:51:41,565 - ERROR - Critical framework error: ExperimentalMetrics.__init__() got an unexpected keyword argument 'quantum_coherence'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8354, in compute_final_metrics
+    love_coherence = validation.get('love_unity', {}).get('love_coherence', 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9080, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8377, in compute_final_metrics
+    return ExperimentalMetrics(
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: ExperimentalMetrics.__init__() got an unexpected keyword argument 'quantum_coherence'
+2025-01-14 15:51:41,568 - INFO - Results saved to unity_experiments\1736866294
+2025-01-14 15:53:12,262 - INFO - Starting Quantum Unity Framework...
+2025-01-14 15:53:15,846 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 15:53:15,997 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 15:53:15,998 - INFO - Lagged matrix created with shape: (144, 10)
+2025-01-14 15:53:15,998 - INFO - Standardization applied to lagged matrix.
+2025-01-14 15:53:16,007 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-14 15:53:16,008 - INFO - Dominant eigenvalues extracted: [36.01906027 35.23827744 32.02103036]
+2025-01-14 15:53:16,019 - INFO - Granger causality analysis completed.
+2025-01-14 15:53:16,098 - INFO - ARIMA prediction generated for the next 10 steps.
+2025-01-14 15:53:16,098 - ERROR - Quantum econometrics analysis failed: 'dict' object has no attribute 'dimensions'
+2025-01-14 15:53:16,106 - ERROR - Visualization quantum_state failed: name 'validation' is not defined
+2025-01-14 15:53:17,077 - ERROR - Visualization entanglement failed: name 'validation' is not defined
+2025-01-14 15:53:17,101 - ERROR - Visualization consciousness failed: name 'validation' is not defined
+2025-01-14 15:53:17,126 - ERROR - Visualization love_field failed: name 'validation' is not defined
+2025-01-14 15:53:17,152 - ERROR - Critical visualization pipeline failure: Unsupported subplot type: 'graph'
+2025-01-14 15:53:17,155 - ERROR - Error computing final metrics: 'UnityResult' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8354, in compute_final_metrics
+    love_coherence = validation.get('love_unity', {}).get('love_coherence', 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+2025-01-14 15:53:17,156 - ERROR - Critical framework error: ExperimentalMetrics.__init__() got an unexpected keyword argument 'quantum_coherence'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8354, in compute_final_metrics
+    love_coherence = validation.get('love_unity', {}).get('love_coherence', 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9080, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8377, in compute_final_metrics
+    return ExperimentalMetrics(
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: ExperimentalMetrics.__init__() got an unexpected keyword argument 'quantum_coherence'
+2025-01-14 15:53:17,160 - INFO - Results saved to unity_experiments\1736866392
+2025-01-14 16:17:29,635 - INFO - Starting Quantum Unity Framework...
+2025-01-14 16:17:34,168 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 16:17:34,315 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 16:17:34,316 - INFO - Lagged matrix created with shape: (144, 10)
+2025-01-14 16:17:34,317 - INFO - Standardization applied to lagged matrix.
+2025-01-14 16:17:34,328 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-14 16:17:34,329 - INFO - Dominant eigenvalues extracted: [55.62119329 55.30575727 47.77582837]
+2025-01-14 16:17:34,338 - ERROR - Quantum econometrics analysis failed: Singular matrix
+2025-01-14 16:17:34,344 - ERROR - Quantum visualization failed: 'UnityVisualizer' object has no attribute 'dimension'
+2025-01-14 16:17:34,345 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-14 16:17:35,969 - ERROR - Visualization quantum_state failed: UnityVisualizer._generate_fallback_figure() got an unexpected keyword argument 'error'
+2025-01-14 16:17:36,000 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-14 16:17:36,026 - ERROR - Visualization love_field failed: 'resonance_matrix'
+2025-01-14 16:17:36,248 - ERROR - Critical visualization pipeline failure: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'showlegend'
+2025-01-14 16:17:36,249 - ERROR - Error computing final metrics: 'UnityResult' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8840, in compute_final_metrics
+    love_coherence = validation.get('love_unity', {}).get('love_coherence', 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+2025-01-14 16:17:36,249 - ERROR - Critical framework error: ExperimentalMetrics.__init__() got an unexpected keyword argument 'topological_persistence'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8840, in compute_final_metrics
+    love_coherence = validation.get('love_unity', {}).get('love_coherence', 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9565, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8862, in compute_final_metrics
+    return ExperimentalMetrics(
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: ExperimentalMetrics.__init__() got an unexpected keyword argument 'topological_persistence'
+2025-01-14 16:17:36,255 - INFO - Results saved to unity_experiments\1736867849
+2025-01-14 16:20:03,784 - INFO - Starting Quantum Unity Framework...
+2025-01-14 16:20:07,713 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 16:20:07,818 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 16:20:07,819 - INFO - Lagged matrix created with shape: (144, 10)
+2025-01-14 16:20:07,819 - INFO - Standardization applied to lagged matrix.
+2025-01-14 16:20:07,827 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-14 16:20:07,827 - INFO - Dominant eigenvalues extracted: [50.22878734 48.45681279 45.89566184]
+2025-01-14 16:20:07,836 - INFO - Granger causality analysis completed.
+2025-01-14 16:20:08,117 - INFO - ARIMA prediction generated for the next 10 steps.
+2025-01-14 16:20:08,118 - ERROR - Quantum econometrics analysis failed: 'UnityEconometrics' object has no attribute '_initialize_unified_framework'
+2025-01-14 16:20:08,125 - ERROR - Quantum visualization failed: 'UnityVisualizer' object has no attribute 'dimension'
+2025-01-14 16:20:08,126 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-14 16:20:09,269 - ERROR - Visualization quantum_state failed: UnityVisualizer._generate_fallback_figure() got an unexpected keyword argument 'error'
+2025-01-14 16:20:09,301 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-14 16:20:09,325 - ERROR - Visualization love_field failed: 'resonance_matrix'
+2025-01-14 16:20:09,483 - ERROR - Critical visualization pipeline failure: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'showlegend'
+2025-01-14 16:20:09,484 - ERROR - Error computing final metrics: 'UnityResult' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8840, in compute_final_metrics
+    love_coherence = validation.get('love_unity', {}).get('love_coherence', 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+2025-01-14 16:20:09,484 - ERROR - Critical framework error: ExperimentalMetrics.__init__() got an unexpected keyword argument 'topological_persistence'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8840, in compute_final_metrics
+    love_coherence = validation.get('love_unity', {}).get('love_coherence', 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9565, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8862, in compute_final_metrics
+    return ExperimentalMetrics(
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: ExperimentalMetrics.__init__() got an unexpected keyword argument 'topological_persistence'
+2025-01-14 16:20:09,490 - INFO - Results saved to unity_experiments\1736868003
+2025-01-14 16:37:27,116 - INFO - Starting Quantum Unity Framework...
+2025-01-14 16:37:27,207 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 16:37:27,313 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 16:37:27,313 - INFO - Lagged matrix created with shape: (144, 10)
+2025-01-14 16:37:27,314 - INFO - Standardization applied to lagged matrix.
+2025-01-14 16:37:27,321 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-14 16:37:27,321 - INFO - Dominant eigenvalues extracted: [53.84223056 51.21436628 49.05281908]
+2025-01-14 16:37:27,329 - ERROR - Quantum econometrics analysis failed: Singular matrix
+2025-01-14 16:37:27,334 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-14 16:37:28,080 - ERROR - Quantum visualization failed: UnityVisualizer._add_phase_space_trace() got an unexpected keyword argument 'colorscale'
+2025-01-14 16:37:28,080 - ERROR - Visualization quantum_state failed: UnityVisualizer._generate_fallback_figure() got an unexpected keyword argument 'error'
+2025-01-14 16:37:28,096 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-14 16:37:28,105 - ERROR - Visualization love_field failed: 'coupling_matrix'
+2025-01-14 16:37:28,131 - ERROR - Critical visualization pipeline failure: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'margin'
+2025-01-14 16:37:28,132 - ERROR - Error computing final metrics: 'UnityResult' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8935, in compute_final_metrics
+    love_coherence = validation.get('love_unity', {}).get('love_coherence', 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+2025-01-14 16:37:28,133 - ERROR - Critical framework error: ExperimentalMetrics.__init__() got an unexpected keyword argument 'topological_persistence'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8935, in compute_final_metrics
+    love_coherence = validation.get('love_unity', {}).get('love_coherence', 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnityResult' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9660, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8957, in compute_final_metrics
+    return ExperimentalMetrics(
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: ExperimentalMetrics.__init__() got an unexpected keyword argument 'topological_persistence'
+2025-01-14 16:37:28,137 - INFO - Results saved to unity_experiments\1736869047
+2025-01-14 16:43:42,833 - INFO - Starting Quantum Unity Framework...
+2025-01-14 16:43:42,942 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 16:43:43,069 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 16:43:43,070 - INFO - Lagged matrix created with shape: (144, 10)
+2025-01-14 16:43:43,070 - INFO - Standardization applied to lagged matrix.
+2025-01-14 16:43:43,078 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-14 16:43:43,079 - INFO - Dominant eigenvalues extracted: [66.09821841 64.84652065 60.60970147]
+2025-01-14 16:43:43,082 - ERROR - Quantum econometrics analysis failed: Singular matrix
+2025-01-14 16:43:43,090 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-14 16:43:43,923 - ERROR - Quantum visualization failed: UnityVisualizer._add_phase_space_trace() got an unexpected keyword argument 'colorscale'
+2025-01-14 16:43:43,924 - ERROR - Visualization quantum_state failed: UnityVisualizer._generate_fallback_figure() got an unexpected keyword argument 'error'
+2025-01-14 16:43:43,939 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-14 16:43:43,951 - ERROR - Visualization love_field failed: 'coupling_matrix'
+2025-01-14 16:43:43,980 - ERROR - Critical visualization pipeline failure: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'margin'
+2025-01-14 16:43:43,981 - ERROR - Error computing final metrics: ExperimentalMetrics.__init__() got an unexpected keyword argument 'meta_reality_confidence'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\tempCodeRunnerFile.py", line 8895, in compute_final_metrics
+    return ExperimentalMetrics(
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: ExperimentalMetrics.__init__() got an unexpected keyword argument 'meta_reality_confidence'
+2025-01-14 16:43:43,982 - ERROR - Critical framework error: ExperimentalMetrics.__init__() got an unexpected keyword argument 'meta_reality_confidence'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\tempCodeRunnerFile.py", line 8895, in compute_final_metrics
+    return ExperimentalMetrics(
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: ExperimentalMetrics.__init__() got an unexpected keyword argument 'meta_reality_confidence'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\tempCodeRunnerFile.py", line 9615, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\tempCodeRunnerFile.py", line 8912, in compute_final_metrics
+    return ExperimentalMetrics(
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: ExperimentalMetrics.__init__() got an unexpected keyword argument 'meta_reality_confidence'
+2025-01-14 16:43:43,986 - INFO - Results saved to unity_experiments\1736869422
+2025-01-14 16:50:50,455 - INFO - Starting Quantum Unity Framework...
+2025-01-14 16:50:50,457 - ERROR - Evolution failed: State dimension mismatch: 6 != 8
+2025-01-14 16:50:50,457 - ERROR - Framework initialization failed: could not broadcast input array from shape (1,6) into shape (1,8)
+2025-01-14 16:50:50,457 - ERROR - Critical framework error: Critical initialization error: could not broadcast input array from shape (1,6) into shape (1,8)
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8270, in initialize_framework
+    evolved_states = quantum_evolution.evolve_ensemble(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 7865, in evolve_ensemble
+    result[i] = new_batch
+    ~~~~~~^^^
+ValueError: could not broadcast input array from shape (1,6) into shape (1,8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9516, in main
+    framework = await initialize_framework(dimension)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8290, in initialize_framework
+    raise RuntimeError(f"Critical initialization error: {e}")
+RuntimeError: Critical initialization error: could not broadcast input array from shape (1,6) into shape (1,8)
+2025-01-14 16:50:50,460 - INFO - Results saved to unity_experiments\1736869850
+2025-01-14 16:51:26,666 - INFO - Starting Quantum Unity Framework...
+2025-01-14 16:51:26,775 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 16:51:26,909 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 16:51:26,910 - INFO - Lagged matrix created with shape: (144, 10)
+2025-01-14 16:51:26,910 - INFO - Standardization applied to lagged matrix.
+2025-01-14 16:51:26,917 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-14 16:51:26,918 - INFO - Dominant eigenvalues extracted: [54.53558515 49.47684115 47.10425754]
+2025-01-14 16:51:26,929 - INFO - Granger causality analysis completed.
+2025-01-14 16:51:27,082 - INFO - ARIMA prediction generated for the next 10 steps.
+2025-01-14 16:51:27,087 - ERROR - Quantum analysis failed: 'UnityEconometrics' object has no attribute '_prepare_quantum_state'
+2025-01-14 16:51:27,087 - ERROR - Quantum econometrics analysis failed: 'UnityEconometrics' object has no attribute '_generate_quantum_fallback'
+2025-01-14 16:51:27,093 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-14 16:51:27,928 - ERROR - Quantum visualization failed: UnityVisualizer._add_phase_space_trace() got an unexpected keyword argument 'colorscale'
+2025-01-14 16:51:27,928 - ERROR - Visualization quantum_state failed: UnityVisualizer._generate_fallback_figure() got an unexpected keyword argument 'error'
+2025-01-14 16:51:27,943 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-14 16:51:27,952 - ERROR - Visualization love_field failed: 'coupling_matrix'
+2025-01-14 16:51:27,983 - ERROR - Critical visualization pipeline failure: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'margin'
+2025-01-14 16:51:27,984 - ERROR - Error computing final metrics: 'UnificationResult' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8881, in compute_final_metrics
+    .get('complete_unity', False)
+     ^^^
+AttributeError: 'UnificationResult' object has no attribute 'get'
+2025-01-14 16:51:27,985 - ERROR - Critical framework error: ExperimentalMetrics.__init__() got an unexpected keyword argument 'quantum_ensemble_energy'
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8881, in compute_final_metrics
+    .get('complete_unity', False)
+     ^^^
+AttributeError: 'UnificationResult' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9603, in main
+    metrics = await compute_final_metrics(validation_synthesis)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8900, in compute_final_metrics
+    return ExperimentalMetrics(
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: ExperimentalMetrics.__init__() got an unexpected keyword argument 'quantum_ensemble_energy'
+2025-01-14 16:51:27,988 - INFO - Results saved to unity_experiments\1736869886
+2025-01-14 17:26:28,800 - INFO - Starting Quantum Unity Framework...
+2025-01-14 17:26:28,803 - ERROR - Critical framework error: name 'hamiltonian' is not defined
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9753, in main
+    quantum_evolution_results = await execute_advanced_quantum_evolution(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8669, in execute_advanced_quantum_evolution
+    energy_val = float(np.vdot(current_state, hamiltonian @ current_state).real)
+                                              ^^^^^^^^^^^
+NameError: name 'hamiltonian' is not defined
+2025-01-14 17:26:28,805 - INFO - Results saved to unity_experiments\1736871988
+2025-01-14 17:30:06,195 - INFO - Starting Quantum Unity Framework...
+2025-01-14 17:30:06,199 - ERROR - Critical framework error: Hamiltonian must be a square matrix matching the system's dimension.
+Traceback (most recent call last):
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 9758, in main
+    quantum_evolution_results = await execute_advanced_quantum_evolution(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Nouri\Documents\GitHub\oneplusoneisone\academic_proof_new.py", line 8648, in execute_advanced_quantum_evolution
+    raise ValueError("Hamiltonian must be a square matrix matching the system's dimension.")
+ValueError: Hamiltonian must be a square matrix matching the system's dimension.
+2025-01-14 17:30:06,201 - INFO - Results saved to unity_experiments\1736872206
+2025-01-14 17:33:01,735 - INFO - Starting Quantum Unity Framework...
+2025-01-14 17:33:01,836 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 17:33:01,994 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 17:33:01,994 - INFO - Lagged matrix created with shape: (144, 10)
+2025-01-14 17:33:01,995 - INFO - Standardization applied to lagged matrix.
+2025-01-14 17:33:02,003 - INFO - SSA decomposition completed with 14 principal components.
+2025-01-14 17:33:02,003 - INFO - Dominant eigenvalues extracted: [51.85033315 47.95985799 46.95663995]
+2025-01-14 17:33:02,012 - INFO - Granger causality analysis completed.
+2025-01-14 17:33:02,096 - INFO - ARIMA prediction generated for the next 10 steps.
+2025-01-14 17:33:02,097 - ERROR - Quantum analysis failed: 'UnityEconometrics' object has no attribute '_prepare_quantum_state'
+2025-01-14 17:33:02,097 - ERROR - Quantum econometrics analysis failed: 'UnityEconometrics' object has no attribute '_generate_quantum_fallback'
+2025-01-14 17:33:02,104 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-14 17:33:02,106 - ERROR - Love field visualization failed: Invalid love field tensor.
+2025-01-14 17:33:02,893 - ERROR - Error visualizing quantum state: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-14 17:33:02,911 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-14 17:33:02,944 - ERROR - Critical visualization pipeline failure: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'margin'
+2025-01-14 17:33:02,946 - INFO - Results saved to unity_experiments\1736872381
+2025-01-14 17:33:57,652 - INFO - Starting Quantum Unity Framework...
+2025-01-14 17:33:59,039 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 17:33:59,730 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 17:33:59,730 - INFO - Lagged matrix created with shape: (1337, 10)
+2025-01-14 17:33:59,731 - INFO - Standardization applied to lagged matrix.
+2025-01-14 17:33:59,839 - INFO - SSA decomposition completed with 133 principal components.
+2025-01-14 17:33:59,893 - INFO - Dominant eigenvalues extracted: [178.13001293 167.23640656 162.94910169]
+2025-01-14 17:33:59,912 - INFO - Granger causality analysis completed.
+2025-01-14 17:34:00,389 - INFO - ARIMA prediction generated for the next 10 steps.
+2025-01-14 17:34:00,389 - ERROR - Quantum analysis failed: 'UnityEconometrics' object has no attribute '_prepare_quantum_state'
+2025-01-14 17:34:00,393 - ERROR - Quantum econometrics analysis failed: 'UnityEconometrics' object has no attribute '_generate_quantum_fallback'
+2025-01-14 17:34:00,399 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-14 17:34:00,401 - ERROR - Love field visualization failed: Invalid love field tensor.
+2025-01-14 17:34:01,014 - ERROR - Error visualizing quantum state: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-14 17:34:01,029 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-14 17:34:01,053 - ERROR - Critical visualization pipeline failure: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'margin'
+2025-01-14 17:34:01,059 - INFO - Results saved to unity_experiments\1736872437
+2025-01-14 17:47:52,891 - INFO - Starting Quantum Unity Framework...
+2025-01-14 17:47:54,153 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 17:47:55,074 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 17:47:55,075 - INFO - Lagged matrix created with shape: (1337, 10)
+2025-01-14 17:47:55,076 - INFO - Standardization applied to lagged matrix.
+2025-01-14 17:47:55,236 - INFO - SSA decomposition completed with 133 principal components.
+2025-01-14 17:47:55,298 - INFO - Dominant eigenvalues extracted: [177.95516338 172.88193884 162.82840786]
+2025-01-14 17:47:55,322 - INFO - Granger causality analysis completed.
+2025-01-14 17:47:56,249 - ERROR - Quantum econometrics analysis failed: Schur decomposition solver error.
+2025-01-14 17:47:56,257 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-14 17:47:57,105 - ERROR - Love field visualization failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'scene'
+2025-01-14 17:47:57,114 - ERROR - Error visualizing quantum state: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-14 17:47:57,132 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-14 17:47:57,274 - INFO - Results saved to unity_experiments\1736873272
+2025-01-14 17:48:55,621 - INFO - Starting Quantum Unity Framework...
+2025-01-14 17:48:56,651 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 17:48:57,372 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 17:48:57,372 - INFO - Lagged matrix created with shape: (1337, 10)
+2025-01-14 17:48:57,373 - INFO - Standardization applied to lagged matrix.
+2025-01-14 17:48:57,466 - INFO - SSA decomposition completed with 133 principal components.
+2025-01-14 17:48:57,525 - INFO - Dominant eigenvalues extracted: [152.95469    149.30959209 147.87697681]
+2025-01-14 17:48:57,539 - INFO - Granger causality analysis completed.
+2025-01-14 17:48:58,009 - INFO - ARIMA prediction generated for the next 10 steps.
+2025-01-14 17:48:58,010 - ERROR - Quantum analysis failed: 'UnityEconometrics' object has no attribute '_prepare_quantum_state'
+2025-01-14 17:48:58,010 - ERROR - Quantum econometrics analysis failed: 'UnityEconometrics' object has no attribute '_generate_quantum_fallback'
+2025-01-14 17:48:58,015 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-14 17:48:58,621 - ERROR - Love field visualization failed: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'scene'
+2025-01-14 17:48:58,629 - ERROR - Error visualizing quantum state: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-14 17:48:58,641 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-14 17:48:58,716 - INFO - Results saved to unity_experiments\1736873335
+2025-01-14 18:05:38,762 - INFO - Starting Quantum Unity Framework...
+2025-01-14 18:05:39,868 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 18:05:40,566 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 18:05:40,567 - INFO - Lagged matrix created with shape: (1337, 10)
+2025-01-14 18:05:40,567 - INFO - Standardization applied to lagged matrix.
+2025-01-14 18:05:40,664 - INFO - SSA decomposition completed with 133 principal components.
+2025-01-14 18:05:40,726 - INFO - Dominant eigenvalues extracted: [168.11155395 163.50083317 158.59355434]
+2025-01-14 18:05:40,742 - INFO - Granger causality analysis completed.
+2025-01-14 18:05:42,228 - INFO - ARIMA prediction generated for the next 10 steps.
+2025-01-14 18:05:42,228 - INFO - Econometric analysis of quantum dynamics completed.
+2025-01-14 18:05:42,228 - ERROR - Quantum econometrics analysis failed: SpectralEntropyAnalyzer.__init__() missing 1 required positional argument: 'signal'
+2025-01-14 18:05:42,235 - ERROR - Entanglement network visualization failed: can only specify one unknown dimension
+2025-01-14 18:05:42,900 - ERROR - Error visualizing quantum state: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+2025-01-14 18:05:42,914 - ERROR - Visualization consciousness failed: 'consciousness_field'
+2025-01-14 18:05:43,928 - INFO - Results saved to unity_experiments\1736874338
+2025-01-14 18:20:58,332 - INFO - Starting Quantum Unity Framework...
+2025-01-14 18:20:59,565 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 18:21:00,660 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 18:21:00,661 - INFO - Lagged matrix created with shape: (1337, 10)
+2025-01-14 18:21:00,662 - INFO - Standardization applied to lagged matrix.
+2025-01-14 18:21:00,776 - INFO - SSA decomposition completed with 133 principal components.
+2025-01-14 18:21:00,864 - INFO - Dominant eigenvalues extracted: [159.2109066  154.87168281 153.82764482]
+2025-01-14 18:21:00,882 - INFO - Granger causality analysis completed.
+2025-01-14 18:21:01,108 - ERROR - Quantum econometrics analysis failed: Schur decomposition solver error.
+2025-01-14 18:21:01,113 - ERROR - Critical visualization pipeline failure: 'AsyncThreadPoolExecutor' object does not support the asynchronous context manager protocol
+2025-01-14 18:21:01,115 - INFO - Results saved to unity_experiments\1736875258
+2025-01-14 18:25:34,728 - INFO - Starting Quantum Unity Framework...
+2025-01-14 18:25:35,853 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 18:25:36,834 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 18:25:36,837 - INFO - Lagged matrix created with shape: (1337, 10)
+2025-01-14 18:25:36,838 - INFO - Standardization applied to lagged matrix.
+2025-01-14 18:25:37,004 - INFO - SSA decomposition completed with 133 principal components.
+2025-01-14 18:25:37,069 - INFO - Dominant eigenvalues extracted: [159.16603288 156.3940899  155.35152541]
+2025-01-14 18:25:37,090 - INFO - Granger causality analysis completed.
+2025-01-14 18:25:38,170 - INFO - ARIMA prediction generated for the next 10 steps.
+2025-01-14 18:25:38,171 - INFO - Econometric analysis of quantum dynamics completed.
+2025-01-14 18:25:38,173 - INFO - Spectral entropy: 1.6559028535848003e-09, Fluctuation index: 8.913893353533285e-06
+2025-01-14 18:25:38,253 - ERROR - Quantum econometrics analysis failed: RegimeSwitchingModel.__init__() missing 2 required positional arguments: 'data' and 'num_regimes'
+2025-01-14 18:25:38,261 - ERROR - Critical visualization pipeline failure: 'NoneType' object has no attribute 'write_html'
+2025-01-14 18:25:38,263 - INFO - Results saved to unity_experiments\1736875534
+2025-01-14 18:27:26,065 - INFO - Starting Quantum Unity Framework...
+2025-01-14 18:27:27,445 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 18:27:28,454 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 18:27:28,456 - INFO - Lagged matrix created with shape: (1337, 10)
+2025-01-14 18:27:28,457 - INFO - Standardization applied to lagged matrix.
+2025-01-14 18:27:28,629 - INFO - SSA decomposition completed with 133 principal components.
+2025-01-14 18:27:28,700 - INFO - Dominant eigenvalues extracted: [158.65722066 156.83039396 153.29177744]
+2025-01-14 18:27:28,723 - INFO - Granger causality analysis completed.
+2025-01-14 18:27:28,959 - ERROR - Quantum econometrics analysis failed: Schur decomposition solver error.
+2025-01-14 18:27:28,966 - ERROR - Visualization quantum_state failed: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-01-14 18:27:29,796 - ERROR - Visualization entanglement failed: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-01-14 18:27:29,801 - ERROR - Critical visualization pipeline failure: 'NoneType' object has no attribute 'write_html'
+2025-01-14 18:27:29,804 - INFO - Results saved to unity_experiments\1736875646
+2025-01-14 19:00:18,456 - INFO - Starting Quantum Unity Framework...
+2025-01-14 19:00:20,154 - INFO - Quantum Evolution Protocol completed.
+2025-01-14 19:00:21,346 - INFO - Initiating enhanced econometric analysis...
+2025-01-14 19:00:21,347 - INFO - Lagged matrix created with shape: (1337, 10)
+2025-01-14 19:00:21,352 - INFO - Standardization applied to lagged matrix.
+2025-01-14 19:00:21,506 - INFO - SSA decomposition completed with 133 principal components.
+2025-01-14 19:00:21,575 - INFO - Dominant eigenvalues extracted: [161.87114145 161.04840459 158.20450494]
+2025-01-14 19:00:21,606 - INFO - Granger causality analysis completed.
+2025-01-14 19:00:24,362 - INFO - ARIMA prediction generated for the next 10 steps.
+2025-01-14 19:00:24,365 - INFO - Econometric analysis of quantum dynamics completed.
+2025-01-14 19:00:24,366 - INFO - Spectral entropy: 1.6662445516515005e-09, Fluctuation index: 8.932113500689294e-06
+2025-01-14 19:00:24,437 - ERROR - Quantum econometrics analysis failed: RegimeSwitchingModel.__init__() missing 2 required positional arguments: 'data' and 'num_regimes'
+2025-01-14 19:00:24,443 - ERROR - Visualization quantum_state failed: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-01-14 19:00:25,253 - ERROR - Visualization entanglement failed: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-01-14 19:00:25,257 - ERROR - Visualization love_field failed: 'UnityResult' object has no attribute 'get'
+2025-01-14 19:00:25,263 - ERROR - Critical visualization pipeline failure: 'NoneType' object has no attribute 'write_html'
+2025-01-14 19:00:25,267 - INFO - Results saved to unity_experiments\1736877618

@@ -1,0 +1,29 @@
+{
+  "metrics": {
+    "quantum_coherence": 0.999999999999998,
+    "statistical_significance": {
+      "real": 0.10000000006258716,
+      "imag": 5.547181266451768e-11
+    },
+    "topological_persistence": [
+      0,
+      1001,
+      1001
+    ],
+    "meta_reality_confidence": 0.6180339887498948,
+    "quantum_ensemble_energy": 0.16666666666666632,
+    "econometric_strength": 0.0,
+    "love_coherence": 0.7804436416013159,
+    "theoretical_completion": true,
+    "unified_metric": 80.45445117475141
+  },
+  "metadata": {
+    "framework_version": "2025.1",
+    "phi_precision": "1.61803398874989490253",
+    "dimension": 6,
+    "experiment_id": 1736544430,
+    "visualizations": [],
+    "visualization_paths": {}
+  },
+  "timestamp": "2025-01-10T22:27:19.425846"
+}

@@ -1,0 +1,40 @@
+{
+  "metrics": {
+    "experiment_id": "auto_generated",
+    "description": "Default metrics",
+    "timestamp": "2025-01-14T16:51:27.987798",
+    "coherence": 1.0,
+    "meta_reality_confidence": 0.0,
+    "entanglement": null,
+    "purity": null,
+    "statistical_significance": null,
+    "reproducibility_score": null,
+    "predictive_accuracy": null,
+    "residual_variance": null,
+    "model_complexity": null,
+    "out_of_sample_performance": null,
+    "econometric_indicators": {},
+    "quantum_fidelity": null,
+    "decoherence_rate": null,
+    "quantum_entropy": null,
+    "topological_invariants": {},
+    "topological_persistence": [],
+    "meta_stability": null,
+    "convergence_rate": null,
+    "validation_integrity": null,
+    "visualization_quality": null,
+    "dimensionality_reduction_score": null,
+    "anomaly_detection_rate": null,
+    "robustness_score": null,
+    "error_margins": {},
+    "runtime": null,
+    "computational_complexity": null,
+    "memory_footprint": null,
+    "custom_metrics": {}
+  },
+  "metadata": {
+    "error": "Critical Error: ExperimentalMetrics.__init__() got an unexpected keyword argument 'quantum_ensemble_energy'",
+    "experiment_status": "Failed"
+  },
+  "timestamp": "2025-01-14T16:51:27.987798"
+}
